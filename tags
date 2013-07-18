@@ -1,0 +1,870 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ALLOC_DEBUG	allocator_bk.c	19;"	d	file:
+ARCH_MIN_MMSTRUCT_ALIGN	fork.c	1720;"	d	file:
+ARCH_MIN_TASKALIGN	fork.c	262;"	d	file:
+BH_FLAGS	inode.c	1688;"	d	file:
+COLOR_NUM	allocator_bk.c	33;"	d	file:
+COLOR_QUOTA	allocator_bk.c	67;"	d	file:
+CREATE_TRACE_POINTS	fork.c	86;"	d	file:
+DIO_MAX_BLOCKS	inode.c	645;"	d	file:
+GET_COLOR	allocator_bk.c	74;"	d	file:
+HAVE_PTE_SPECIAL	memory.c	792;"	d	file:
+HAVE_PTE_SPECIAL	memory.c	794;"	d	file:
+INIT_MM_CONTEXT	init-mm.c	15;"	d	file:
+K	page_alloc.c	2904;"	d	file:
+LONG_ALIGN	page_alloc.c	3762;"	d	file:
+MAX_NODE_LOAD	page_alloc.c	3234;"	d	file:
+MMAP_LOTSAMISS	filemap.c	1548;"	d	file:
+MPAGE_DA_EXTENT_TAIL	inode.c	50;"	d	file:
+MY_CHECK_ALL	allocator_bk.c	59;"	d	file:
+MY_CHECK_ONE	allocator_bk.c	60;"	d	file:
+MY_CHECK_RESERVE	allocator_bk.c	61;"	d	file:
+NUMA_ZONELIST_ORDER_LEN	page_alloc.c	3153;"	d	file:
+PAGES_PER_WAITQUEUE	page_alloc.c	3707;"	d	file:
+PG_SIZE	allocator_bk.c	31;"	d	file:
+RAM_MIN	allocator_bk.c	36;"	d	file:
+RAM_SIZE	allocator_bk.c	35;"	d	file:
+ROUND_ROBIN	allocator_bk.c	20;"	d	file:
+SYSCALL_DEFINE0	fork.c	/^SYSCALL_DEFINE0(fork)$/;"	f
+SYSCALL_DEFINE0	fork.c	/^SYSCALL_DEFINE0(vfork)$/;"	f
+SYSCALL_DEFINE1	exec.c	/^SYSCALL_DEFINE1(uselib, const char __user *, library)$/;"	f
+SYSCALL_DEFINE1	fork.c	/^SYSCALL_DEFINE1(set_tid_address, int __user *, tidptr)$/;"	f
+SYSCALL_DEFINE1	fork.c	/^SYSCALL_DEFINE1(unshare, unsigned long, unshare_flags)$/;"	f
+SYSCALL_DEFINE3	exec.c	/^SYSCALL_DEFINE3(execve,$/;"	f
+SYSCALL_DEFINE5	fork.c	/^SYSCALL_DEFINE5(clone, unsigned long, clone_flags, unsigned long, newsp,$/;"	f
+SyS_readahead	readahead.c	/^asmlinkage long SyS_readahead(long fd, loff_t offset, long count)$/;"	f
+TASK_RSS_EVENTS_THRESH	memory.c	177;"	d	file:
+ZONELIST_ORDER_DEFAULT	page_alloc.c	3138;"	d	file:
+ZONELIST_ORDER_NODE	page_alloc.c	3139;"	d	file:
+ZONELIST_ORDER_ZONE	page_alloc.c	3140;"	d	file:
+__absent_pages_in_range	page_alloc.c	/^unsigned long __meminit __absent_pages_in_range(int nid,$/;"	f
+__access_remote_vm	memory.c	/^static int __access_remote_vm(struct task_struct *tsk, struct mm_struct *mm,$/;"	f	file:
+__alloc_contig_migrate_range	page_alloc.c	/^static int __alloc_contig_migrate_range(struct compact_control *cc,$/;"	f	file:
+__alloc_pages_direct_compact	page_alloc.c	/^__alloc_pages_direct_compact(gfp_t gfp_mask, unsigned int order,$/;"	f	file:
+__alloc_pages_direct_reclaim	page_alloc.c	/^__alloc_pages_direct_reclaim(gfp_t gfp_mask, unsigned int order,$/;"	f	file:
+__alloc_pages_high_priority	page_alloc.c	/^__alloc_pages_high_priority(gfp_t gfp_mask, unsigned int order,$/;"	f	file:
+__alloc_pages_may_oom	page_alloc.c	/^__alloc_pages_may_oom(gfp_t gfp_mask, unsigned int order,$/;"	f	file:
+__alloc_pages_nodemask	page_alloc.c	/^EXPORT_SYMBOL(__alloc_pages_nodemask);$/;"	v
+__alloc_pages_nodemask	page_alloc.c	/^__alloc_pages_nodemask(gfp_t gfp_mask, unsigned int order,$/;"	f
+__alloc_pages_slowpath	page_alloc.c	/^__alloc_pages_slowpath(gfp_t gfp_mask, unsigned int order,$/;"	f	file:
+__bprm_mm_init	exec.c	/^static int __bprm_mm_init(struct linux_binprm *bprm)$/;"	f	file:
+__build_all_zonelists	page_alloc.c	/^static int __build_all_zonelists(void *data)$/;"	f	file:
+__check_block_validity	inode.c	/^static int __check_block_validity(struct inode *inode, const char *func,$/;"	f	file:
+__cleanup_sighand	fork.c	/^void __cleanup_sighand(struct sighand_struct *sighand)$/;"	f
+__delete_from_page_cache	filemap.c	/^void __delete_from_page_cache(struct page *page)$/;"	f
+__do_fault	memory.c	/^static int __do_fault(struct mm_struct *mm, struct vm_area_struct *vma,$/;"	f	file:
+__do_page_cache_readahead	readahead.c	/^__do_page_cache_readahead(struct address_space *mapping, struct file *filp,$/;"	f	file:
+__early_pfn_to_nid	page_alloc.c	/^int __meminit __early_pfn_to_nid(unsigned long pfn)$/;"	f
+__ext4_get_inode_loc	inode.c	/^static int __ext4_get_inode_loc(struct inode *inode,$/;"	f	file:
+__ext4_journalled_invalidatepage	inode.c	/^static int __ext4_journalled_invalidatepage(struct page *page,$/;"	f	file:
+__ext4_journalled_writepage	inode.c	/^static int __ext4_journalled_writepage(struct page *page,$/;"	f	file:
+__filemap_fdatawrite	filemap.c	/^static inline int __filemap_fdatawrite(struct address_space *mapping,$/;"	f	file:
+__filemap_fdatawrite_range	filemap.c	/^int __filemap_fdatawrite_range(struct address_space *mapping, loff_t start,$/;"	f
+__find_buddy_index	page_alloc.c	/^__find_buddy_index(unsigned long page_idx, unsigned int order)$/;"	f	file:
+__follow_pte	memory.c	/^static int __follow_pte(struct mm_struct *mm, unsigned long address,$/;"	f	file:
+__free_memcg_kmem_pages	page_alloc.c	/^void __free_memcg_kmem_pages(struct page *page, unsigned int order)$/;"	f
+__free_one_page	page_alloc.c	/^static inline void __free_one_page(struct page *page,$/;"	f	file:
+__free_pages	page_alloc.c	/^EXPORT_SYMBOL(__free_pages);$/;"	v
+__free_pages	page_alloc.c	/^void __free_pages(struct page *page, unsigned int order)$/;"	f
+__free_pages_bootmem	page_alloc.c	/^void __meminit __free_pages_bootmem(struct page *page, unsigned int order)$/;"	f
+__free_pages_ok	page_alloc.c	/^static void __free_pages_ok(struct page *page, unsigned int order)$/;"	f	file:
+__generic_file_aio_write	filemap.c	/^EXPORT_SYMBOL(__generic_file_aio_write);$/;"	v
+__generic_file_aio_write	filemap.c	/^ssize_t __generic_file_aio_write(struct kiocb *iocb, const struct iovec *iov,$/;"	f
+__get_dumpable	exec.c	/^int __get_dumpable(unsigned long mm_flags)$/;"	f
+__get_free_pages	page_alloc.c	/^EXPORT_SYMBOL(__get_free_pages);$/;"	v
+__get_free_pages	page_alloc.c	/^unsigned long __get_free_pages(gfp_t gfp_mask, unsigned int order)$/;"	f
+__get_locked_pte	memory.c	/^pte_t *__get_locked_pte(struct mm_struct *mm, unsigned long addr,$/;"	f
+__get_user_pages	memory.c	/^EXPORT_SYMBOL(__get_user_pages);$/;"	v
+__get_user_pages	memory.c	/^int __get_user_pages(struct task_struct *tsk, struct mm_struct *mm,$/;"	f
+__iovec_copy_from_user_inatomic	filemap.c	/^static size_t __iovec_copy_from_user_inatomic(char *vaddr,$/;"	f	file:
+__isolate_free_page	page_alloc.c	/^static int __isolate_free_page(struct page *page, unsigned int order)$/;"	f	file:
+__lock_page	filemap.c	/^EXPORT_SYMBOL(__lock_page);$/;"	v
+__lock_page	filemap.c	/^void __lock_page(struct page *page)$/;"	f
+__lock_page_killable	filemap.c	/^EXPORT_SYMBOL_GPL(__lock_page_killable);$/;"	v
+__lock_page_killable	filemap.c	/^int __lock_page_killable(struct page *page)$/;"	f
+__lock_page_or_retry	filemap.c	/^int __lock_page_or_retry(struct page *page, struct mm_struct *mm,$/;"	f
+__mmdrop	fork.c	/^EXPORT_SYMBOL_GPL(__mmdrop);$/;"	v
+__mmdrop	fork.c	/^void __mmdrop(struct mm_struct *mm)$/;"	f
+__offline_isolated_pages	page_alloc.c	/^__offline_isolated_pages(unsigned long start_pfn, unsigned long end_pfn)$/;"	f
+__page_cache_alloc	filemap.c	/^EXPORT_SYMBOL(__page_cache_alloc);$/;"	v
+__page_cache_alloc	filemap.c	/^struct page *__page_cache_alloc(gfp_t gfp)$/;"	f
+__parse_numa_zonelist_order	page_alloc.c	/^static int __parse_numa_zonelist_order(char *s)$/;"	f	file:
+__perform_reclaim	page_alloc.c	/^__perform_reclaim(gfp_t gfp_mask, unsigned int order, struct zonelist *zonelist,$/;"	f	file:
+__pmd_alloc	memory.c	/^int __pmd_alloc(struct mm_struct *mm, pud_t *pud, unsigned long address)$/;"	f
+__pte_alloc	memory.c	/^int __pte_alloc(struct mm_struct *mm, struct vm_area_struct *vma,$/;"	f
+__pte_alloc_kernel	memory.c	/^int __pte_alloc_kernel(pmd_t *pmd, unsigned long address)$/;"	f
+__pud_alloc	memory.c	/^int __pud_alloc(struct mm_struct *mm, pgd_t *pgd, unsigned long address)$/;"	f
+__put_task_struct	fork.c	/^EXPORT_SYMBOL_GPL(__put_task_struct);$/;"	v
+__put_task_struct	fork.c	/^void __put_task_struct(struct task_struct *tsk)$/;"	f
+__read_cache_page	filemap.c	/^static struct page *__read_cache_page(struct address_space *mapping,$/;"	f	file:
+__read_mostly	memory.c	/^int randomize_va_space __read_mostly =$/;"	v
+__read_mostly	memory.c	/^unsigned long highest_memmap_pfn __read_mostly;$/;"	v
+__read_mostly	memory.c	/^unsigned long zero_pfn __read_mostly;$/;"	v
+__read_mostly	page_alloc.c	/^bool oom_killer_disabled __read_mostly;$/;"	v
+__read_mostly	page_alloc.c	/^gfp_t gfp_allowed_mask __read_mostly = GFP_BOOT_MASK;$/;"	v
+__read_mostly	page_alloc.c	/^int nr_node_ids __read_mostly = MAX_NUMNODES;$/;"	v
+__read_mostly	page_alloc.c	/^int nr_online_nodes __read_mostly = 1;$/;"	v
+__read_mostly	page_alloc.c	/^int page_group_by_mobility_disabled __read_mostly;$/;"	v
+__read_mostly	page_alloc.c	/^int pageblock_order __read_mostly;$/;"	v
+__read_mostly	page_alloc.c	/^nodemask_t node_states[NR_NODE_STATES] __read_mostly = {$/;"	v
+__read_mostly	page_alloc.c	/^unsigned long dirty_balance_reserve __read_mostly;$/;"	v
+__read_mostly	page_alloc.c	/^unsigned long totalram_pages __read_mostly;$/;"	v
+__read_mostly	page_alloc.c	/^unsigned long totalreserve_pages __read_mostly;$/;"	v
+__register_binfmt	exec.c	/^EXPORT_SYMBOL(__register_binfmt);$/;"	v
+__register_binfmt	exec.c	/^void __register_binfmt(struct linux_binfmt * fmt, int insert)$/;"	f
+__releases	memory.c	/^	__releases(ptl)$/;"	f
+__rmqueue	page_alloc.c	/^static struct page *__rmqueue(struct zone *zone, unsigned int order,$/;"	f	file:
+__rmqueue_fallback	page_alloc.c	/^__rmqueue_fallback(struct zone *zone, int order, int start_migratetype)$/;"	f	file:
+__rmqueue_smallest	page_alloc.c	/^struct page *__rmqueue_smallest(struct zone *zone, unsigned int order,$/;"	f	file:
+__setup_per_zone_wmarks	page_alloc.c	/^static void __setup_per_zone_wmarks(void)$/;"	f	file:
+__tlb_remove_page	memory.c	/^int __tlb_remove_page(struct mmu_gather *tlb, struct page *page)$/;"	f
+__zone_pcp_update	page_alloc.c	/^static int __meminit __zone_pcp_update(void *data)$/;"	f	file:
+__zone_watermark_ok	page_alloc.c	/^static bool __zone_watermark_ok(struct zone *z, int order, unsigned long mark,$/;"	f	file:
+_debug_guardpage_minorder	page_alloc.c	/^unsigned int _debug_guardpage_minorder;$/;"	v
+_ext4_get_block	inode.c	/^static int _ext4_get_block(struct inode *inode, sector_t iblock,$/;"	f	file:
+_numa_mem_	page_alloc.c	/^EXPORT_PER_CPU_SYMBOL(_numa_mem_);$/;"	v
+absent_pages_in_range	page_alloc.c	/^unsigned long __init absent_pages_in_range(unsigned long start_pfn,$/;"	f
+access_process_vm	memory.c	/^int access_process_vm(struct task_struct *tsk, unsigned long addr,$/;"	f
+access_remote_vm	memory.c	/^int access_remote_vm(struct mm_struct *mm, unsigned long addr,$/;"	f
+account_kernel_stack	fork.c	/^static void account_kernel_stack(struct thread_info *ti, int account)$/;"	f	file:
+acct_arg_size	exec.c	/^static inline void acct_arg_size(struct linux_binprm *bprm, unsigned long pages)$/;"	f	file:
+acct_arg_size	exec.c	/^static void acct_arg_size(struct linux_binprm *bprm, unsigned long pages)$/;"	f	file:
+add_mm_counter_fast	memory.c	/^static void add_mm_counter_fast(struct mm_struct *mm, int member, int val)$/;"	f	file:
+add_mm_rss_vec	memory.c	/^static inline void add_mm_rss_vec(struct mm_struct *mm, int *rss)$/;"	f	file:
+add_page_wait_queue	filemap.c	/^EXPORT_SYMBOL_GPL(add_page_wait_queue);$/;"	v
+add_page_wait_queue	filemap.c	/^void add_page_wait_queue(struct page *page, wait_queue_t *waiter)$/;"	f
+add_to_page_cache_locked	filemap.c	/^EXPORT_SYMBOL(add_to_page_cache_locked);$/;"	v
+add_to_page_cache_locked	filemap.c	/^int add_to_page_cache_locked(struct page *page, struct address_space *mapping,$/;"	f
+add_to_page_cache_lru	filemap.c	/^EXPORT_SYMBOL_GPL(add_to_page_cache_lru);$/;"	v
+add_to_page_cache_lru	filemap.c	/^int add_to_page_cache_lru(struct page *page, struct address_space *mapping,$/;"	f
+adjust_zone_range_for_zone_movable	page_alloc.c	/^static void __meminit adjust_zone_range_for_zone_movable(int nid,$/;"	f	file:
+alloc_cleanup	allocator_bk.c	/^module_exit(alloc_cleanup);$/;"	v
+alloc_cleanup	allocator_bk.c	/^static void __exit alloc_cleanup(void) {$/;"	f	file:
+alloc_colored_page	allocator_bk.c	/^struct page *alloc_colored_page(struct mm_struct *mm) {$/;"	f
+alloc_contig_range	page_alloc.c	/^int alloc_contig_range(unsigned long start, unsigned long end,$/;"	f
+alloc_init	allocator_bk.c	/^module_init(alloc_init);$/;"	v
+alloc_init	allocator_bk.c	/^static int __init alloc_init(void) {$/;"	f	file:
+alloc_large_system_hash	page_alloc.c	/^void *__init alloc_large_system_hash(const char *tablename,$/;"	f
+alloc_node_mem_map	page_alloc.c	/^static void __init_refok alloc_node_mem_map(struct pglist_data *pgdat)$/;"	f	file:
+alloc_pages_exact	page_alloc.c	/^EXPORT_SYMBOL(alloc_pages_exact);$/;"	v
+alloc_pages_exact	page_alloc.c	/^void *alloc_pages_exact(size_t size, gfp_t gfp_mask)$/;"	f
+alloc_pages_exact_nid	page_alloc.c	/^EXPORT_SYMBOL(alloc_pages_exact_nid);$/;"	v
+alloc_pages_exact_nid	page_alloc.c	/^void *alloc_pages_exact_nid(int nid, size_t size, gfp_t gfp_mask)$/;"	f
+alloc_task_struct_node	fork.c	/^static inline struct task_struct *alloc_task_struct_node(int node)$/;"	f	file:
+alloc_thread_info_node	fork.c	/^static struct thread_info *alloc_thread_info_node(struct task_struct *tsk,$/;"	f	file:
+allocate_mm	fork.c	512;"	d	file:
+apply_to_page_range	memory.c	/^EXPORT_SYMBOL_GPL(apply_to_page_range);$/;"	v
+apply_to_page_range	memory.c	/^int apply_to_page_range(struct mm_struct *mm, unsigned long addr,$/;"	f
+apply_to_pmd_range	memory.c	/^static int apply_to_pmd_range(struct mm_struct *mm, pud_t *pud,$/;"	f	file:
+apply_to_pte_range	memory.c	/^static int apply_to_pte_range(struct mm_struct *mm, pmd_t *pmd,$/;"	f	file:
+apply_to_pud_range	memory.c	/^static int apply_to_pud_range(struct mm_struct *mm, pgd_t *pgd,$/;"	f	file:
+arch_dup_task_struct	fork.c	/^int __attribute__((weak)) arch_dup_task_struct(struct task_struct *dst,$/;"	f
+arch_release_task_struct	fork.c	/^void __weak arch_release_task_struct(struct task_struct *tsk)$/;"	f
+arch_release_thread_info	fork.c	/^void __weak arch_release_thread_info(struct thread_info *ti)$/;"	f
+arch_task_cache_init	fork.c	/^void __init __weak arch_task_cache_init(void) { }$/;"	f
+arch_zone_highest_possible_pfn	page_alloc.c	/^static unsigned long __meminitdata arch_zone_highest_possible_pfn[MAX_NR_ZONES];$/;"	v	file:
+arch_zone_lowest_possible_pfn	page_alloc.c	/^static unsigned long __meminitdata arch_zone_lowest_possible_pfn[MAX_NR_ZONES];$/;"	v	file:
+assign_colors	memory.c	/^EXPORT_SYMBOL(assign_colors);$/;"	v
+assign_colors	memory.c	/^void (*assign_colors)(struct mm_struct *mm) = NULL;$/;"	v
+attr	page_alloc.c	/^	struct fault_attr attr;$/;"	m	struct:__anon2	typeref:struct:__anon2::fault_attr	file:
+bad_page	page_alloc.c	/^static void bad_page(struct page *page)$/;"	f	file:
+bad_range	page_alloc.c	/^static inline int bad_range(struct zone *zone, struct page *page)$/;"	f	file:
+bad_range	page_alloc.c	/^static int bad_range(struct zone *zone, struct page *page)$/;"	f	file:
+bget_one	inode.c	/^static int bget_one(handle_t *handle, struct buffer_head *bh)$/;"	f	file:
+bprm_change_interp	exec.c	/^EXPORT_SYMBOL(bprm_change_interp);$/;"	v
+bprm_change_interp	exec.c	/^int bprm_change_interp(char *interp, struct linux_binprm *bprm)$/;"	f
+bprm_mm_init	exec.c	/^int bprm_mm_init(struct linux_binprm *bprm)$/;"	f
+bput_one	inode.c	/^static int bput_one(handle_t *handle, struct buffer_head *bh)$/;"	f	file:
+buffered_rmqueue	page_alloc.c	/^struct page *buffered_rmqueue(struct zone *preferred_zone,$/;"	f	file:
+build_all_zonelists	page_alloc.c	/^void __ref build_all_zonelists(pg_data_t *pgdat, struct zone *zone)$/;"	f
+build_thisnode_zonelists	page_alloc.c	/^static void build_thisnode_zonelists(pg_data_t *pgdat)$/;"	f	file:
+build_zonelist_cache	page_alloc.c	/^static void build_zonelist_cache(pg_data_t *pgdat)$/;"	f	file:
+build_zonelists	page_alloc.c	/^static void build_zonelists(pg_data_t *pgdat)$/;"	f	file:
+build_zonelists_in_node_order	page_alloc.c	/^static void build_zonelists_in_node_order(pg_data_t *pgdat, int node)$/;"	f	file:
+build_zonelists_in_zone_order	page_alloc.c	/^static void build_zonelists_in_zone_order(pg_data_t *pgdat, int nr_nodes)$/;"	f	file:
+build_zonelists_node	page_alloc.c	/^static int build_zonelists_node(pg_data_t *pgdat, struct zonelist *zonelist,$/;"	f	file:
+calc_memmap_size	page_alloc.c	/^static unsigned long __paginginit calc_memmap_size(unsigned long spanned_pages,$/;"	f	file:
+calculate_node_totalpages	page_alloc.c	/^static void __meminit calculate_node_totalpages(struct pglist_data *pgdat,$/;"	f	file:
+calculate_totalreserve_pages	page_alloc.c	/^static void calculate_totalreserve_pages(void)$/;"	f	file:
+calculate_zone_inactive_ratio	page_alloc.c	/^static void __meminit calculate_zone_inactive_ratio(struct zone *zone)$/;"	f	file:
+change_pageblock_range	page_alloc.c	/^static void change_pageblock_range(struct page *pageblock_page,$/;"	f	file:
+check_apps	memory.c	/^EXPORT_SYMBOL(check_apps);$/;"	v
+check_apps	memory.c	/^int (*check_apps)(struct file *filp) = NULL;$/;"	v
+check_block_validity	inode.c	426;"	d	file:
+check_for_memory	page_alloc.c	/^static void check_for_memory(pg_data_t *pgdat, int nid)$/;"	f	file:
+check_lists	allocator_bk.c	/^static void check_lists(void) {$/;"	f	file:
+check_mm	fork.c	/^static void check_mm(struct mm_struct *mm)$/;"	f	file:
+check_new_page	page_alloc.c	/^static inline int check_new_page(struct page *page)$/;"	f	file:
+check_stack_guard_page	memory.c	/^static inline int check_stack_guard_page(struct vm_area_struct *vma, unsigned long address)$/;"	f	file:
+check_sync_rss_stat	memory.c	/^static void check_sync_rss_stat(struct task_struct *task)$/;"	f	file:
+check_unsafe_exec	exec.c	/^static int check_unsafe_exec(struct linux_binprm *bprm)$/;"	f	file:
+check_unshare_flags	fork.c	/^static int check_unshare_flags(unsigned long unshare_flags)$/;"	f	file:
+clear_gigantic_page	memory.c	/^static void clear_gigantic_page(struct page *page,$/;"	f	file:
+clear_huge_page	memory.c	/^void clear_huge_page(struct page *page,$/;"	f
+clear_page_guard_flag	page_alloc.c	/^static inline void clear_page_guard_flag(struct page *page) { }$/;"	f	file:
+clear_page_guard_flag	page_alloc.c	/^static inline void clear_page_guard_flag(struct page *page)$/;"	f	file:
+cmdline_parse_core	page_alloc.c	/^static int __init cmdline_parse_core(char *p, unsigned long *core)$/;"	f	file:
+cmdline_parse_kernelcore	page_alloc.c	/^static int __init cmdline_parse_kernelcore(char *p)$/;"	f	file:
+cmdline_parse_movablecore	page_alloc.c	/^static int __init cmdline_parse_movablecore(char *p)$/;"	f	file:
+color_force_page_cache_readahead	readahead.c	/^int color_force_page_cache_readahead(struct address_space *mapping, struct file *filp,$/;"	f
+color_grab_cache_page_write_begin	filemap.c	/^EXPORT_SYMBOL(color_grab_cache_page_write_begin);$/;"	v
+color_grab_cache_page_write_begin	filemap.c	/^struct page *color_grab_cache_page_write_begin(struct address_space *mapping,$/;"	f
+color_hots	allocator_bk.c	/^static unsigned long color_hots[COLOR_NUM];$/;"	v	file:
+color_index	allocator_bk.c	/^static int color_index;$/;"	v	file:
+color_lists	allocator_bk.c	/^static NODE color_lists[COLOR_NUM];$/;"	v	file:
+color_locks	allocator_bk.c	/^static spinlock_t color_locks[COLOR_NUM];$/;"	v	file:
+color_page_cache_async_readahead	readahead.c	/^EXPORT_SYMBOL_GPL(color_page_cache_async_readahead);$/;"	v
+color_page_cache_async_readahead	readahead.c	/^color_page_cache_async_readahead(struct address_space *mapping,$/;"	f
+color_page_cache_sync_readahead	readahead.c	/^EXPORT_SYMBOL_GPL(color_page_cache_sync_readahead);$/;"	v
+color_page_cache_sync_readahead	readahead.c	/^void color_page_cache_sync_readahead(struct address_space *mapping,$/;"	f
+color_ra_submit	readahead.c	/^unsigned long color_ra_submit(struct file_ra_state *ra,$/;"	f
+colored_alloc	memory.c	/^EXPORT_SYMBOL(colored_alloc);$/;"	v
+colored_alloc	memory.c	/^struct page * (*colored_alloc)(struct mm_struct *mm) = NULL;$/;"	v	typeref:struct:colored_alloc
+colored_alloc_file	memory.c	/^EXPORT_SYMBOL(colored_alloc_file);$/;"	v
+colored_alloc_file	memory.c	/^struct page * (*colored_alloc_file)(struct file *filp) = NULL;$/;"	v	typeref:struct:colored_alloc_file
+colored_free	memory.c	/^EXPORT_SYMBOL(colored_free);$/;"	v
+colored_free	memory.c	/^int (*colored_free)(struct page *pg, struct zone *zone) = NULL;$/;"	v
+compat	exec.c	/^		const compat_uptr_t __user *compat;$/;"	m	union:user_arg_ptr::__anon1	file:
+compat_do_execve	exec.c	/^static int compat_do_execve(const char *filename,$/;"	f	file:
+compat_sys_execve	exec.c	/^asmlinkage long compat_sys_execve(const char __user * filename,$/;"	f
+complete_vfork_done	fork.c	/^static void complete_vfork_done(struct task_struct *tsk)$/;"	f	file:
+copy_files	fork.c	/^static int copy_files(unsigned long clone_flags, struct task_struct *tsk)$/;"	f	file:
+copy_flags	fork.c	/^static void copy_flags(unsigned long clone_flags, struct task_struct *p)$/;"	f	file:
+copy_fs	fork.c	/^static int copy_fs(unsigned long clone_flags, struct task_struct *tsk)$/;"	f	file:
+copy_io	fork.c	/^static int copy_io(unsigned long clone_flags, struct task_struct *tsk)$/;"	f	file:
+copy_mm	fork.c	/^static int copy_mm(unsigned long clone_flags, struct task_struct *tsk)$/;"	f	file:
+copy_one_pte	memory.c	/^copy_one_pte(struct mm_struct *dst_mm, struct mm_struct *src_mm,$/;"	f	file:
+copy_page_range	memory.c	/^int copy_page_range(struct mm_struct *dst_mm, struct mm_struct *src_mm,$/;"	f
+copy_pmd_range	memory.c	/^static inline int copy_pmd_range(struct mm_struct *dst_mm, struct mm_struct *src_mm,$/;"	f	file:
+copy_process	fork.c	/^static struct task_struct *copy_process(unsigned long clone_flags,$/;"	f	file:
+copy_pte_range	memory.c	/^int copy_pte_range(struct mm_struct *dst_mm, struct mm_struct *src_mm,$/;"	f
+copy_pud_range	memory.c	/^static inline int copy_pud_range(struct mm_struct *dst_mm, struct mm_struct *src_mm,$/;"	f	file:
+copy_sighand	fork.c	/^static int copy_sighand(unsigned long clone_flags, struct task_struct *tsk)$/;"	f	file:
+copy_signal	fork.c	/^static int copy_signal(unsigned long clone_flags, struct task_struct *tsk)$/;"	f	file:
+copy_strings	exec.c	/^static int copy_strings(int argc, struct user_arg_ptr argv,$/;"	f	file:
+copy_strings_kernel	exec.c	/^EXPORT_SYMBOL(copy_strings_kernel);$/;"	v
+copy_strings_kernel	exec.c	/^int copy_strings_kernel(int argc, const char *const *__argv,$/;"	f
+copy_user_gigantic_page	memory.c	/^static void copy_user_gigantic_page(struct page *dst, struct page *src,$/;"	f	file:
+copy_user_huge_page	memory.c	/^void copy_user_huge_page(struct page *dst, struct page *src,$/;"	f
+coredump_filter_setup	fork.c	/^static int __init coredump_filter_setup(char *s)$/;"	f	file:
+count	exec.c	/^static int count(struct user_arg_ptr argv, int max)$/;"	f	file:
+count_history_pages	readahead.c	/^static pgoff_t count_history_pages(struct address_space *mapping,$/;"	f	file:
+cow_user_page	memory.c	/^static inline void cow_user_page(struct page *dst, struct page *src, unsigned long va, struct vm_area_struct *vma)$/;"	f	file:
+current_zonelist_order	page_alloc.c	/^static int current_zonelist_order = ZONELIST_ORDER_DEFAULT;$/;"	v	file:
+de_thread	exec.c	/^static int de_thread(struct task_struct *tsk)$/;"	f	file:
+debug_guardpage_minorder_setup	page_alloc.c	/^static int __init debug_guardpage_minorder_setup(char *buf)$/;"	f	file:
+debug_ioctl	allocator_bk.c	/^int debug_ioctl(struct inode *inode, struct file *file,$/;"	f
+dec_mm_counter_fast	memory.c	174;"	d	file:
+dec_mm_counter_fast	memory.c	188;"	d	file:
+default_dump_filter	fork.c	/^static unsigned long default_dump_filter = MMF_DUMP_FILTER_DEFAULT;$/;"	v	file:
+default_zonelist_order	page_alloc.c	/^static int default_zonelist_order(void)$/;"	f	file:
+delete_from_page_cache	filemap.c	/^EXPORT_SYMBOL(delete_from_page_cache);$/;"	v
+delete_from_page_cache	filemap.c	/^void delete_from_page_cache(struct page *page)$/;"	f
+destroy_compound_page	page_alloc.c	/^static int destroy_compound_page(struct page *page, unsigned long order)$/;"	f	file:
+disable_randmaps	memory.c	/^static int __init disable_randmaps(char *s)$/;"	f	file:
+dma_reserve	page_alloc.c	/^static unsigned long __meminitdata dma_reserve;$/;"	v	file:
+do_anonymous_page	memory.c	/^static int do_anonymous_page(struct mm_struct *mm, struct vm_area_struct *vma,$/;"	f	file:
+do_async_mmap_readahead	filemap.c	/^static void do_async_mmap_readahead(struct vm_area_struct *vma,$/;"	f	file:
+do_execve	exec.c	/^int do_execve(const char *filename,$/;"	f
+do_execve_common	exec.c	/^static int do_execve_common(const char *filename,$/;"	f	file:
+do_fork	fork.c	/^long do_fork(unsigned long clone_flags,$/;"	f
+do_generic_file_read	filemap.c	/^static void do_generic_file_read(struct file *filp, loff_t *ppos,$/;"	f	file:
+do_journal_get_write_access	inode.c	/^int do_journal_get_write_access(handle_t *handle,$/;"	f
+do_linear_fault	memory.c	/^static int do_linear_fault(struct mm_struct *mm, struct vm_area_struct *vma,$/;"	f	file:
+do_nonlinear_fault	memory.c	/^static int do_nonlinear_fault(struct mm_struct *mm, struct vm_area_struct *vma,$/;"	f	file:
+do_numa_page	memory.c	/^int do_numa_page(struct mm_struct *mm, struct vm_area_struct *vma,$/;"	f
+do_pmd_numa_page	memory.c	/^static int do_pmd_numa_page(struct mm_struct *mm, struct vm_area_struct *vma,$/;"	f	file:
+do_read_cache_page	filemap.c	/^static struct page *do_read_cache_page(struct address_space *mapping,$/;"	f	file:
+do_readahead	readahead.c	/^do_readahead(struct address_space *mapping, struct file *filp,$/;"	f	file:
+do_swap_page	memory.c	/^static int do_swap_page(struct mm_struct *mm, struct vm_area_struct *vma,$/;"	f	file:
+do_sync_mmap_readahead	filemap.c	/^static void do_sync_mmap_readahead(struct vm_area_struct *vma,$/;"	f	file:
+drain_all_pages	page_alloc.c	/^void drain_all_pages(void)$/;"	f
+drain_local_pages	page_alloc.c	/^void drain_local_pages(void *arg)$/;"	f
+drain_pages	page_alloc.c	/^static void drain_pages(unsigned int cpu)$/;"	f	file:
+drain_zone_pages	page_alloc.c	/^void drain_zone_pages(struct zone *zone, struct per_cpu_pages *pcp)$/;"	f
+dump_page	page_alloc.c	/^void dump_page(struct page *page)$/;"	f
+dump_page_flags	page_alloc.c	/^static void dump_page_flags(unsigned long flags)$/;"	f	file:
+dup_mm	fork.c	/^struct mm_struct *dup_mm(struct task_struct *tsk)$/;"	f
+dup_mm_exe_file	fork.c	/^static void dup_mm_exe_file(struct mm_struct *oldmm, struct mm_struct *newmm)$/;"	f	file:
+dup_mmap	fork.c	/^static int dup_mmap(struct mm_struct *mm, struct mm_struct *oldmm)$/;"	f	file:
+dup_mmap	fork.c	505;"	d	file:
+dup_task_struct	fork.c	/^static struct task_struct *dup_task_struct(struct task_struct *orig)$/;"	f	file:
+early_calculate_totalpages	page_alloc.c	/^static unsigned long __init early_calculate_totalpages(void)$/;"	f	file:
+early_pfn_in_nid	page_alloc.c	/^bool __meminit early_pfn_in_nid(unsigned long pfn, int node)$/;"	f
+early_pfn_to_nid	page_alloc.c	/^int __meminit early_pfn_to_nid(unsigned long pfn)$/;"	f
+end_page_writeback	filemap.c	/^EXPORT_SYMBOL(end_page_writeback);$/;"	v
+end_page_writeback	filemap.c	/^void end_page_writeback(struct page *page)$/;"	f
+exec_mmap	exec.c	/^static int exec_mmap(struct mm_struct *mm)$/;"	f	file:
+expand	page_alloc.c	/^static inline void expand(struct zone *zone, struct page *page,$/;"	f	file:
+ext4_alloc_da_blocks	inode.c	/^int ext4_alloc_da_blocks(struct inode *inode)$/;"	f
+ext4_begin_ordered_truncate	inode.c	/^static inline int ext4_begin_ordered_truncate(struct inode *inode,$/;"	f	file:
+ext4_bh_delay_or_unwritten	inode.c	/^static int ext4_bh_delay_or_unwritten(handle_t *handle, struct buffer_head *bh)$/;"	f	file:
+ext4_bh_unmapped	inode.c	/^static int ext4_bh_unmapped(handle_t *handle, struct buffer_head *bh)$/;"	f	file:
+ext4_bmap	inode.c	/^static sector_t ext4_bmap(struct address_space *mapping, sector_t block)$/;"	f	file:
+ext4_bread	inode.c	/^struct buffer_head *ext4_bread(handle_t *handle, struct inode *inode,$/;"	f
+ext4_calc_metadata_amount	inode.c	/^static int ext4_calc_metadata_amount(struct inode *inode, ext4_lblk_t lblock)$/;"	f	file:
+ext4_can_truncate	inode.c	/^int ext4_can_truncate(struct inode *inode)$/;"	f
+ext4_change_inode_journal_flag	inode.c	/^int ext4_change_inode_journal_flag(struct inode *inode, int val)$/;"	f
+ext4_chunk_trans_blocks	inode.c	/^int ext4_chunk_trans_blocks(struct inode *inode, int nrblocks)$/;"	f
+ext4_da_aops	inode.c	/^static const struct address_space_operations ext4_da_aops = {$/;"	v	typeref:struct:address_space_operations	file:
+ext4_da_block_invalidatepages	inode.c	/^static void ext4_da_block_invalidatepages(struct mpage_da_data *mpd)$/;"	f	file:
+ext4_da_get_block_prep	inode.c	/^int ext4_da_get_block_prep(struct inode *inode, sector_t iblock,$/;"	f
+ext4_da_invalidatepage	inode.c	/^static void ext4_da_invalidatepage(struct page *page, unsigned long offset)$/;"	f	file:
+ext4_da_map_blocks	inode.c	/^static int ext4_da_map_blocks(struct inode *inode, sector_t iblock,$/;"	f	file:
+ext4_da_page_release_reservation	inode.c	/^static void ext4_da_page_release_reservation(struct page *page,$/;"	f	file:
+ext4_da_release_space	inode.c	/^static void ext4_da_release_space(struct inode *inode, int to_free)$/;"	f	file:
+ext4_da_reserve_space	inode.c	/^static int ext4_da_reserve_space(struct inode *inode, ext4_lblk_t lblock)$/;"	f	file:
+ext4_da_should_update_i_disksize	inode.c	/^static int ext4_da_should_update_i_disksize(struct page *page,$/;"	f	file:
+ext4_da_update_reserve_space	inode.c	/^void ext4_da_update_reserve_space(struct inode *inode,$/;"	f
+ext4_da_write_begin	inode.c	/^static int ext4_da_write_begin(struct file *file, struct address_space *mapping,$/;"	f	file:
+ext4_da_write_end	inode.c	/^static int ext4_da_write_end(struct file *file,$/;"	f	file:
+ext4_da_writepages	inode.c	/^static int ext4_da_writepages(struct address_space *mapping,$/;"	f	file:
+ext4_da_writepages_trans_blocks	inode.c	/^static int ext4_da_writepages_trans_blocks(struct inode *inode)$/;"	f	file:
+ext4_direct_IO	inode.c	/^static ssize_t ext4_direct_IO(int rw, struct kiocb *iocb,$/;"	f	file:
+ext4_dirty_inode	inode.c	/^void ext4_dirty_inode(struct inode *inode, int flags)$/;"	f
+ext4_discard_partial_page_buffers	inode.c	/^int ext4_discard_partial_page_buffers(handle_t *handle,$/;"	f
+ext4_discard_partial_page_buffers_no_lock	inode.c	/^static int ext4_discard_partial_page_buffers_no_lock(handle_t *handle,$/;"	f	file:
+ext4_do_update_inode	inode.c	/^static int ext4_do_update_inode(handle_t *handle,$/;"	f	file:
+ext4_end_io_buffer_write	inode.c	/^static void ext4_end_io_buffer_write(struct buffer_head *bh, int uptodate)$/;"	f	file:
+ext4_end_io_dio	inode.c	/^static void ext4_end_io_dio(struct kiocb *iocb, loff_t offset,$/;"	f	file:
+ext4_evict_inode	inode.c	/^void ext4_evict_inode(struct inode *inode)$/;"	f
+ext4_expand_extra_isize	inode.c	/^static int ext4_expand_extra_isize(struct inode *inode,$/;"	f	file:
+ext4_ext_direct_IO	inode.c	/^static ssize_t ext4_ext_direct_IO(int rw, struct kiocb *iocb,$/;"	f	file:
+ext4_generic_write_end	inode.c	/^static int ext4_generic_write_end(struct file *file,$/;"	f	file:
+ext4_get_block	inode.c	/^int ext4_get_block(struct inode *inode, sector_t iblock,$/;"	f
+ext4_get_block_write	inode.c	/^int ext4_get_block_write(struct inode *inode, sector_t iblock,$/;"	f
+ext4_get_block_write_nolock	inode.c	/^static int ext4_get_block_write_nolock(struct inode *inode, sector_t iblock,$/;"	f	file:
+ext4_get_inode_flags	inode.c	/^void ext4_get_inode_flags(struct ext4_inode_info *ei)$/;"	f
+ext4_get_inode_loc	inode.c	/^int ext4_get_inode_loc(struct inode *inode, struct ext4_iloc *iloc)$/;"	f
+ext4_get_reserved_space	inode.c	/^qsize_t *ext4_get_reserved_space(struct inode *inode)$/;"	f
+ext4_getattr	inode.c	/^int ext4_getattr(struct vfsmount *mnt, struct dentry *dentry,$/;"	f
+ext4_getblk	inode.c	/^struct buffer_head *ext4_getblk(handle_t *handle, struct inode *inode,$/;"	f
+ext4_iget	inode.c	/^struct inode *ext4_iget(struct super_block *sb, unsigned long ino)$/;"	f
+ext4_iget_extra_inode	inode.c	/^static inline void ext4_iget_extra_inode(struct inode *inode,$/;"	f	file:
+ext4_index_trans_blocks	inode.c	/^static int ext4_index_trans_blocks(struct inode *inode, int nrblocks, int chunk)$/;"	f	file:
+ext4_inode_blocks	inode.c	/^static blkcnt_t ext4_inode_blocks(struct ext4_inode *raw_inode,$/;"	f	file:
+ext4_inode_blocks_set	inode.c	/^static int ext4_inode_blocks_set(handle_t *handle,$/;"	f	file:
+ext4_inode_csum	inode.c	/^static __u32 ext4_inode_csum(struct inode *inode, struct ext4_inode *raw,$/;"	f	file:
+ext4_inode_csum_set	inode.c	/^static void ext4_inode_csum_set(struct inode *inode, struct ext4_inode *raw,$/;"	f	file:
+ext4_inode_csum_verify	inode.c	/^static int ext4_inode_csum_verify(struct inode *inode, struct ext4_inode *raw,$/;"	f	file:
+ext4_inode_is_fast_symlink	inode.c	/^static int ext4_inode_is_fast_symlink(struct inode *inode)$/;"	f	file:
+ext4_invalidatepage	inode.c	/^static void ext4_invalidatepage(struct page *page, unsigned long offset)$/;"	f	file:
+ext4_invalidatepage_free_endio	inode.c	/^static void ext4_invalidatepage_free_endio(struct page *page, unsigned long offset)$/;"	f	file:
+ext4_journalled_aops	inode.c	/^static const struct address_space_operations ext4_journalled_aops = {$/;"	v	typeref:struct:address_space_operations	file:
+ext4_journalled_invalidatepage	inode.c	/^static void ext4_journalled_invalidatepage(struct page *page,$/;"	f	file:
+ext4_journalled_set_page_dirty	inode.c	/^static int ext4_journalled_set_page_dirty(struct page *page)$/;"	f	file:
+ext4_journalled_write_end	inode.c	/^static int ext4_journalled_write_end(struct file *file,$/;"	f	file:
+ext4_map_blocks	inode.c	/^int ext4_map_blocks(handle_t *handle, struct inode *inode,$/;"	f
+ext4_mark_iloc_dirty	inode.c	/^int ext4_mark_iloc_dirty(handle_t *handle,$/;"	f
+ext4_mark_inode_dirty	inode.c	/^int ext4_mark_inode_dirty(handle_t *handle, struct inode *inode)$/;"	f
+ext4_meta_trans_blocks	inode.c	/^static int ext4_meta_trans_blocks(struct inode *inode, int nrblocks, int chunk)$/;"	f	file:
+ext4_nonda_switch	inode.c	/^static int ext4_nonda_switch(struct super_block *sb)$/;"	f	file:
+ext4_num_dirty_pages	inode.c	/^static pgoff_t ext4_num_dirty_pages(struct inode *inode, pgoff_t idx,$/;"	f	file:
+ext4_ordered_aops	inode.c	/^static const struct address_space_operations ext4_ordered_aops = {$/;"	v	typeref:struct:address_space_operations	file:
+ext4_ordered_write_end	inode.c	/^static int ext4_ordered_write_end(struct file *file,$/;"	f	file:
+ext4_page_mkwrite	inode.c	/^int ext4_page_mkwrite(struct vm_area_struct *vma, struct vm_fault *vmf)$/;"	f
+ext4_print_free_blocks	inode.c	/^static void ext4_print_free_blocks(struct inode *inode)$/;"	f	file:
+ext4_punch_hole	inode.c	/^int ext4_punch_hole(struct file *file, loff_t offset, loff_t length)$/;"	f
+ext4_readpage	inode.c	/^static int ext4_readpage(struct file *file, struct page *page)$/;"	f	file:
+ext4_readpages	inode.c	/^ext4_readpages(struct file *file, struct address_space *mapping,$/;"	f	file:
+ext4_releasepage	inode.c	/^static int ext4_releasepage(struct page *page, gfp_t wait)$/;"	f	file:
+ext4_reserve_inode_write	inode.c	/^ext4_reserve_inode_write(handle_t *handle, struct inode *inode,$/;"	f
+ext4_set_aops	inode.c	/^void ext4_set_aops(struct inode *inode)$/;"	f
+ext4_set_bh_endio	inode.c	/^static int ext4_set_bh_endio(struct buffer_head *bh, struct inode *inode)$/;"	f	file:
+ext4_set_inode_flags	inode.c	/^void ext4_set_inode_flags(struct inode *inode)$/;"	f
+ext4_setattr	inode.c	/^int ext4_setattr(struct dentry *dentry, struct iattr *attr)$/;"	f
+ext4_truncate	inode.c	/^void ext4_truncate(struct inode *inode)$/;"	f
+ext4_truncate_restart_trans	inode.c	/^int ext4_truncate_restart_trans(handle_t *handle, struct inode *inode,$/;"	f
+ext4_wait_for_tail_page_commit	inode.c	/^static void ext4_wait_for_tail_page_commit(struct inode *inode)$/;"	f	file:
+ext4_walk_page_buffers	inode.c	/^int ext4_walk_page_buffers(handle_t *handle,$/;"	f
+ext4_write_begin	inode.c	/^static int ext4_write_begin(struct file *file, struct address_space *mapping,$/;"	f	file:
+ext4_write_inode	inode.c	/^int ext4_write_inode(struct inode *inode, struct writeback_control *wbc)$/;"	f
+ext4_writeback_aops	inode.c	/^static const struct address_space_operations ext4_writeback_aops = {$/;"	v	typeref:struct:address_space_operations	file:
+ext4_writeback_write_end	inode.c	/^static int ext4_writeback_write_end(struct file *file,$/;"	f	file:
+ext4_writepage	inode.c	/^static int ext4_writepage(struct page *page,$/;"	f	file:
+ext4_writepage_trans_blocks	inode.c	/^int ext4_writepage_trans_blocks(struct inode *inode)$/;"	f
+fail_page_alloc	page_alloc.c	/^} fail_page_alloc = {$/;"	v	typeref:struct:__anon2	file:
+fail_page_alloc_debugfs	page_alloc.c	/^late_initcall(fail_page_alloc_debugfs);$/;"	v
+fail_page_alloc_debugfs	page_alloc.c	/^static int __init fail_page_alloc_debugfs(void)$/;"	f	file:
+fallbacks	page_alloc.c	/^static int fallbacks[MIGRATE_TYPES][4] = {$/;"	v	file:
+file_ra_state_init	readahead.c	/^EXPORT_SYMBOL_GPL(file_ra_state_init);$/;"	v
+file_ra_state_init	readahead.c	/^file_ra_state_init(struct file_ra_state *ra, struct address_space *mapping)$/;"	f
+file_read_actor	filemap.c	/^int file_read_actor(read_descriptor_t *desc, struct page *page,$/;"	f
+filemap_fault	filemap.c	/^EXPORT_SYMBOL(filemap_fault);$/;"	v
+filemap_fault	filemap.c	/^int filemap_fault(struct vm_area_struct *vma, struct vm_fault *vmf)$/;"	f
+filemap_fdatawait	filemap.c	/^EXPORT_SYMBOL(filemap_fdatawait);$/;"	v
+filemap_fdatawait	filemap.c	/^int filemap_fdatawait(struct address_space *mapping)$/;"	f
+filemap_fdatawait_range	filemap.c	/^EXPORT_SYMBOL(filemap_fdatawait_range);$/;"	v
+filemap_fdatawait_range	filemap.c	/^int filemap_fdatawait_range(struct address_space *mapping, loff_t start_byte,$/;"	f
+filemap_fdatawrite	filemap.c	/^EXPORT_SYMBOL(filemap_fdatawrite);$/;"	v
+filemap_fdatawrite	filemap.c	/^int filemap_fdatawrite(struct address_space *mapping)$/;"	f
+filemap_fdatawrite_range	filemap.c	/^EXPORT_SYMBOL(filemap_fdatawrite_range);$/;"	v
+filemap_fdatawrite_range	filemap.c	/^int filemap_fdatawrite_range(struct address_space *mapping, loff_t start,$/;"	f
+filemap_flush	filemap.c	/^EXPORT_SYMBOL(filemap_flush);$/;"	v
+filemap_flush	filemap.c	/^int filemap_flush(struct address_space *mapping)$/;"	f
+filemap_page_mkwrite	filemap.c	/^EXPORT_SYMBOL(filemap_page_mkwrite);$/;"	v
+filemap_page_mkwrite	filemap.c	/^int filemap_page_mkwrite(struct vm_area_struct *vma, struct vm_fault *vmf)$/;"	f
+filemap_write_and_wait	filemap.c	/^EXPORT_SYMBOL(filemap_write_and_wait);$/;"	v
+filemap_write_and_wait	filemap.c	/^int filemap_write_and_wait(struct address_space *mapping)$/;"	f
+filemap_write_and_wait_range	filemap.c	/^EXPORT_SYMBOL(filemap_write_and_wait_range);$/;"	v
+filemap_write_and_wait_range	filemap.c	/^int filemap_write_and_wait_range(struct address_space *mapping,$/;"	f
+filename_to_taskname	exec.c	/^static void filename_to_taskname(char *tcomm, const char *fn, unsigned int len)$/;"	f	file:
+files_cachep	fork.c	/^struct kmem_cache *files_cachep;$/;"	v	typeref:struct:kmem_cache
+find_get_page	filemap.c	/^EXPORT_SYMBOL(find_get_page);$/;"	v
+find_get_page	filemap.c	/^struct page *find_get_page(struct address_space *mapping, pgoff_t offset)$/;"	f
+find_get_pages	filemap.c	/^unsigned find_get_pages(struct address_space *mapping, pgoff_t start,$/;"	f
+find_get_pages_contig	filemap.c	/^EXPORT_SYMBOL(find_get_pages_contig);$/;"	v
+find_get_pages_contig	filemap.c	/^unsigned find_get_pages_contig(struct address_space *mapping, pgoff_t index,$/;"	f
+find_get_pages_tag	filemap.c	/^EXPORT_SYMBOL(find_get_pages_tag);$/;"	v
+find_get_pages_tag	filemap.c	/^unsigned find_get_pages_tag(struct address_space *mapping, pgoff_t *index,$/;"	f
+find_lock_page	filemap.c	/^EXPORT_SYMBOL(find_lock_page);$/;"	v
+find_lock_page	filemap.c	/^struct page *find_lock_page(struct address_space *mapping, pgoff_t offset)$/;"	f
+find_min_pfn_for_node	page_alloc.c	/^static unsigned long __init find_min_pfn_for_node(int nid)$/;"	f	file:
+find_min_pfn_with_active_regions	page_alloc.c	/^unsigned long __init find_min_pfn_with_active_regions(void)$/;"	f
+find_next_best_node	page_alloc.c	/^static int find_next_best_node(int node, nodemask_t *used_node_mask)$/;"	f	file:
+find_or_create_page	filemap.c	/^EXPORT_SYMBOL(find_or_create_page);$/;"	v
+find_or_create_page	filemap.c	/^struct page *find_or_create_page(struct address_space *mapping,$/;"	f
+find_usable_zone_for_movable	page_alloc.c	/^static void __init find_usable_zone_for_movable(void)$/;"	f	file:
+find_zone_movable_pfns_for_nodes	page_alloc.c	/^static void __init find_zone_movable_pfns_for_nodes(void)$/;"	f	file:
+fixup_user_fault	memory.c	/^int fixup_user_fault(struct task_struct *tsk, struct mm_struct *mm,$/;"	f
+flush_arg_page	exec.c	/^static void flush_arg_page(struct linux_binprm *bprm, unsigned long pos,$/;"	f	file:
+flush_old_exec	exec.c	/^EXPORT_SYMBOL(flush_old_exec);$/;"	v
+flush_old_exec	exec.c	/^int flush_old_exec(struct linux_binprm * bprm)$/;"	f
+follow_page	memory.c	/^struct page *follow_page(struct vm_area_struct *vma, unsigned long address,$/;"	f
+follow_pfn	memory.c	/^EXPORT_SYMBOL(follow_pfn);$/;"	v
+follow_pfn	memory.c	/^int follow_pfn(struct vm_area_struct *vma, unsigned long address,$/;"	f
+follow_phys	memory.c	/^int follow_phys(struct vm_area_struct *vma,$/;"	f
+follow_pte	memory.c	/^static inline int follow_pte(struct mm_struct *mm, unsigned long address,$/;"	f	file:
+force_page_cache_readahead	readahead.c	/^int force_page_cache_readahead(struct address_space *mapping, struct file *filp,$/;"	f
+fork_idle	fork.c	/^struct task_struct * __cpuinit fork_idle(int cpu)$/;"	f
+fork_init	fork.c	/^void __init fork_init(unsigned long mempages)$/;"	f
+free_area_init	page_alloc.c	/^void __init free_area_init(unsigned long *zones_size)$/;"	f
+free_area_init_core	page_alloc.c	/^static void __paginginit free_area_init_core(struct pglist_data *pgdat,$/;"	f	file:
+free_area_init_node	page_alloc.c	/^void __paginginit free_area_init_node(int nid, unsigned long *zones_size,$/;"	f
+free_area_init_nodes	page_alloc.c	/^void __init free_area_init_nodes(unsigned long *max_zone_pfn)$/;"	f
+free_arg_page	exec.c	/^static void free_arg_page(struct linux_binprm *bprm, int i)$/;"	f	file:
+free_arg_pages	exec.c	/^static void free_arg_pages(struct linux_binprm *bprm)$/;"	f	file:
+free_bootmem_with_active_regions	page_alloc.c	/^void __init free_bootmem_with_active_regions(int nid, unsigned long max_low_pfn)$/;"	f
+free_bprm	exec.c	/^void free_bprm(struct linux_binprm *bprm)$/;"	f
+free_compound_page	page_alloc.c	/^static void free_compound_page(struct page *page)$/;"	f	file:
+free_contig_range	page_alloc.c	/^void free_contig_range(unsigned long pfn, unsigned nr_pages)$/;"	f
+free_hot_cold_page	page_alloc.c	/^void free_hot_cold_page(struct page *page, int cold)$/;"	f
+free_hot_cold_page_list	page_alloc.c	/^void free_hot_cold_page_list(struct list_head *list, int cold)$/;"	f
+free_list_pgs	allocator_bk.c	/^static void free_list_pgs(NODE *list) {$/;"	f	file:
+free_memcg_kmem_pages	page_alloc.c	/^void free_memcg_kmem_pages(unsigned long addr, unsigned int order)$/;"	f
+free_mm	fork.c	513;"	d	file:
+free_one_page	page_alloc.c	/^static void free_one_page(struct zone *zone, struct page *page, int order,$/;"	f	file:
+free_pages	page_alloc.c	/^EXPORT_SYMBOL(free_pages);$/;"	v
+free_pages	page_alloc.c	/^void free_pages(unsigned long addr, unsigned int order)$/;"	f
+free_pages_check	page_alloc.c	/^static inline int free_pages_check(struct page *page)$/;"	f	file:
+free_pages_exact	page_alloc.c	/^EXPORT_SYMBOL(free_pages_exact);$/;"	v
+free_pages_exact	page_alloc.c	/^void free_pages_exact(void *virt, size_t size)$/;"	f
+free_pages_prepare	page_alloc.c	/^static bool free_pages_prepare(struct page *page, unsigned int order)$/;"	f	file:
+free_pcppages_bulk	page_alloc.c	/^static void free_pcppages_bulk(struct zone *zone, int count,$/;"	f	file:
+free_pgd_range	memory.c	/^void free_pgd_range(struct mmu_gather *tlb,$/;"	f
+free_pgtables	memory.c	/^void free_pgtables(struct mmu_gather *tlb, struct vm_area_struct *vma,$/;"	f
+free_pmd_range	memory.c	/^static inline void free_pmd_range(struct mmu_gather *tlb, pud_t *pud,$/;"	f	file:
+free_pte_range	memory.c	/^static void free_pte_range(struct mmu_gather *tlb, pmd_t *pmd,$/;"	f	file:
+free_pud_range	memory.c	/^static inline void free_pud_range(struct mmu_gather *tlb, pgd_t *pgd,$/;"	f	file:
+free_signal_struct	fork.c	/^static inline void free_signal_struct(struct signal_struct *sig)$/;"	f	file:
+free_task	fork.c	/^EXPORT_SYMBOL(free_task);$/;"	v
+free_task	fork.c	/^void free_task(struct task_struct *tsk)$/;"	f
+free_task_struct	fork.c	/^static inline void free_task_struct(struct task_struct *tsk)$/;"	f	file:
+free_thread_info	fork.c	/^static inline void free_thread_info(struct thread_info *ti)$/;"	f	file:
+free_thread_info	fork.c	/^static void free_thread_info(struct thread_info *ti)$/;"	f	file:
+fs_cachep	fork.c	/^struct kmem_cache *fs_cachep;$/;"	v	typeref:struct:kmem_cache
+gate_vma	memory.c	/^static struct vm_area_struct gate_vma;$/;"	v	typeref:struct:vm_area_struct	file:
+gate_vma_init	memory.c	/^__initcall(gate_vma_init);$/;"	v
+gate_vma_init	memory.c	/^static int __init gate_vma_init(void)$/;"	f	file:
+generic_access_phys	memory.c	/^int generic_access_phys(struct vm_area_struct *vma, unsigned long addr,$/;"	f
+generic_file_aio_read	filemap.c	/^EXPORT_SYMBOL(generic_file_aio_read);$/;"	v
+generic_file_aio_read	filemap.c	/^generic_file_aio_read(struct kiocb *iocb, const struct iovec *iov,$/;"	f
+generic_file_aio_write	filemap.c	/^EXPORT_SYMBOL(generic_file_aio_write);$/;"	v
+generic_file_aio_write	filemap.c	/^ssize_t generic_file_aio_write(struct kiocb *iocb, const struct iovec *iov,$/;"	f
+generic_file_buffered_write	filemap.c	/^EXPORT_SYMBOL(generic_file_buffered_write);$/;"	v
+generic_file_buffered_write	filemap.c	/^generic_file_buffered_write(struct kiocb *iocb, const struct iovec *iov,$/;"	f
+generic_file_direct_write	filemap.c	/^EXPORT_SYMBOL(generic_file_direct_write);$/;"	v
+generic_file_direct_write	filemap.c	/^generic_file_direct_write(struct kiocb *iocb, const struct iovec *iov,$/;"	f
+generic_file_mmap	filemap.c	/^EXPORT_SYMBOL(generic_file_mmap);$/;"	v
+generic_file_mmap	filemap.c	/^int generic_file_mmap(struct file * file, struct vm_area_struct * vma)$/;"	f
+generic_file_readonly_mmap	filemap.c	/^EXPORT_SYMBOL(generic_file_readonly_mmap);$/;"	v
+generic_file_readonly_mmap	filemap.c	/^int generic_file_readonly_mmap(struct file * file, struct vm_area_struct * vma)$/;"	f
+generic_file_readonly_mmap	filemap.c	/^int generic_file_readonly_mmap(struct file *file, struct vm_area_struct *vma)$/;"	f
+generic_file_vm_ops	filemap.c	/^const struct vm_operations_struct generic_file_vm_ops = {$/;"	v	typeref:struct:vm_operations_struct
+generic_perform_write	filemap.c	/^static ssize_t generic_perform_write(struct file *file,$/;"	f	file:
+generic_segment_checks	filemap.c	/^EXPORT_SYMBOL(generic_segment_checks);$/;"	v
+generic_segment_checks	filemap.c	/^int generic_segment_checks(const struct iovec *iov,$/;"	f
+generic_write_checks	filemap.c	/^EXPORT_SYMBOL(generic_write_checks);$/;"	v
+generic_write_checks	filemap.c	/^inline int generic_write_checks(struct file *file, loff_t *pos, size_t *count, int isblk)$/;"	f
+get_arg_page	exec.c	/^static struct page *get_arg_page(struct linux_binprm *bprm, unsigned long pos,$/;"	f	file:
+get_coldest	allocator_bk.c	/^HNode *get_coldest(unsigned long *arr, int n, int k) {$/;"	f
+get_color_set	allocator_bk.c	/^void get_color_set(struct mm_struct *mm) {$/;"	f
+get_dump_page	memory.c	/^struct page *get_dump_page(unsigned long addr)$/;"	f
+get_dumpable	exec.c	/^int get_dumpable(struct mm_struct *mm)$/;"	f
+get_gate_vma	memory.c	/^struct vm_area_struct *get_gate_vma(struct mm_struct *mm)$/;"	f
+get_init_ra_size	readahead.c	/^static unsigned long get_init_ra_size(unsigned long size, unsigned long max)$/;"	f	file:
+get_mm_exe_file	fork.c	/^struct file *get_mm_exe_file(struct mm_struct *mm)$/;"	f
+get_next_ra_size	readahead.c	/^static unsigned long get_next_ra_size(struct file_ra_state *ra,$/;"	f	file:
+get_page_from_freelist	page_alloc.c	/^get_page_from_freelist(gfp_t gfp_mask, nodemask_t *nodemask, unsigned int order,$/;"	f	file:
+get_pageblock_bitmap	page_alloc.c	/^static inline unsigned long *get_pageblock_bitmap(struct zone *zone,$/;"	f	file:
+get_pageblock_flags_group	page_alloc.c	/^unsigned long get_pageblock_flags_group(struct page *page,$/;"	f
+get_pfn_range_for_nid	page_alloc.c	/^void __meminit get_pfn_range_for_nid(unsigned int nid,$/;"	f
+get_task_comm	exec.c	/^EXPORT_SYMBOL_GPL(get_task_comm);$/;"	v
+get_task_comm	exec.c	/^char *get_task_comm(char *buf, struct task_struct *tsk)$/;"	f
+get_task_mm	fork.c	/^EXPORT_SYMBOL_GPL(get_task_mm);$/;"	v
+get_task_mm	fork.c	/^struct mm_struct *get_task_mm(struct task_struct *task)$/;"	f
+get_user_arg_ptr	exec.c	/^static const char __user *get_user_arg_ptr(struct user_arg_ptr argv, int nr)$/;"	f	file:
+get_user_pages	memory.c	/^EXPORT_SYMBOL(get_user_pages);$/;"	v
+get_user_pages	memory.c	/^int get_user_pages(struct task_struct *tsk, struct mm_struct *mm,$/;"	f
+get_zeroed_page	page_alloc.c	/^EXPORT_SYMBOL(get_zeroed_page);$/;"	v
+get_zeroed_page	page_alloc.c	/^unsigned long get_zeroed_page(gfp_t gfp_mask)$/;"	f
+gfp_pfmemalloc_allowed	page_alloc.c	/^bool gfp_pfmemalloc_allowed(gfp_t gfp_mask)$/;"	f
+gfp_to_alloc_flags	page_alloc.c	/^gfp_to_alloc_flags(gfp_t gfp_mask)$/;"	f	file:
+grab_cache_page_nowait	filemap.c	/^EXPORT_SYMBOL(grab_cache_page_nowait);$/;"	v
+grab_cache_page_nowait	filemap.c	/^grab_cache_page_nowait(struct address_space *mapping, pgoff_t index)$/;"	f
+grab_cache_page_write_begin	filemap.c	/^EXPORT_SYMBOL(grab_cache_page_write_begin);$/;"	v
+grab_cache_page_write_begin	filemap.c	/^struct page *grab_cache_page_write_begin(struct address_space *mapping,$/;"	f
+handle_mm_fault	memory.c	/^int handle_mm_fault(struct mm_struct *mm, struct vm_area_struct *vma,$/;"	f
+handle_pte_fault	memory.c	/^int handle_pte_fault(struct mm_struct *mm,$/;"	f
+has_unmovable_pages	page_alloc.c	/^bool has_unmovable_pages(struct zone *zone, struct page *page, int count,$/;"	f
+hashdist	page_alloc.c	/^int hashdist = HASHDIST_DEFAULT;$/;"	v
+high_memory	memory.c	/^EXPORT_SYMBOL(high_memory);$/;"	v
+high_memory	memory.c	/^void * high_memory;$/;"	v
+hot_lock	allocator_bk.c	/^static spinlock_t hot_lock;$/;"	v	file:
+ignore_gfp_highmem	page_alloc.c	/^	u32 ignore_gfp_highmem;$/;"	m	struct:__anon2	file:
+ignore_gfp_wait	page_alloc.c	/^	u32 ignore_gfp_wait;$/;"	m	struct:__anon2	file:
+in_gate_area_no_mm	memory.c	/^int in_gate_area_no_mm(unsigned long addr)$/;"	f
+inc_mm_counter_fast	memory.c	173;"	d	file:
+inc_mm_counter_fast	memory.c	187;"	d	file:
+index_lock	allocator_bk.c	/^static spinlock_t index_lock;$/;"	v	file:
+init_check	allocator_bk.c	/^static void init_check(void) {$/;"	f	file:
+init_cma_reserved_pageblock	page_alloc.c	/^void __init init_cma_reserved_pageblock(struct page *page)$/;"	f
+init_currently_empty_zone	page_alloc.c	/^int __meminit init_currently_empty_zone(struct zone *zone,$/;"	f
+init_idle_pids	fork.c	/^static inline void init_idle_pids(struct pid_link *links)$/;"	f	file:
+init_mm	init-mm.c	/^struct mm_struct init_mm = {$/;"	v	typeref:struct:mm_struct
+init_per_zone_wmark_min	page_alloc.c	/^int __meminit init_per_zone_wmark_min(void)$/;"	f
+init_rss_vec	memory.c	/^static inline void init_rss_vec(int *rss)$/;"	f	file:
+init_zero_pfn	memory.c	/^core_initcall(init_zero_pfn);$/;"	v
+init_zero_pfn	memory.c	/^static int __init init_zero_pfn(void)$/;"	f	file:
+init_zone_allows_reclaim	page_alloc.c	/^static inline void init_zone_allows_reclaim(int nid)$/;"	f	file:
+init_zone_allows_reclaim	page_alloc.c	/^static void __paginginit init_zone_allows_reclaim(int nid)$/;"	f	file:
+insert_page	memory.c	/^static int insert_page(struct vm_area_struct *vma, unsigned long addr,$/;"	f	file:
+insert_pfn	memory.c	/^static int insert_pfn(struct vm_area_struct *vma, unsigned long addr,$/;"	f	file:
+install_exec_creds	exec.c	/^EXPORT_SYMBOL(install_exec_creds);$/;"	v
+install_exec_creds	exec.c	/^void install_exec_creds(struct linux_binprm *bprm)$/;"	f
+internal_alloc_page	allocator_bk.c	/^static struct page *internal_alloc_page(int color) {$/;"	f	file:
+iov_iter_advance	filemap.c	/^EXPORT_SYMBOL(iov_iter_advance);$/;"	v
+iov_iter_advance	filemap.c	/^void iov_iter_advance(struct iov_iter *i, size_t bytes)$/;"	f
+iov_iter_copy_from_user	filemap.c	/^EXPORT_SYMBOL(iov_iter_copy_from_user);$/;"	v
+iov_iter_copy_from_user	filemap.c	/^size_t iov_iter_copy_from_user(struct page *page,$/;"	f
+iov_iter_copy_from_user_atomic	filemap.c	/^EXPORT_SYMBOL(iov_iter_copy_from_user_atomic);$/;"	v
+iov_iter_copy_from_user_atomic	filemap.c	/^size_t iov_iter_copy_from_user_atomic(struct page *page,$/;"	f
+iov_iter_fault_in_readable	filemap.c	/^EXPORT_SYMBOL(iov_iter_fault_in_readable);$/;"	v
+iov_iter_fault_in_readable	filemap.c	/^int iov_iter_fault_in_readable(struct iov_iter *i, size_t bytes)$/;"	f
+iov_iter_single_seg_count	filemap.c	/^EXPORT_SYMBOL(iov_iter_single_seg_count);$/;"	v
+iov_iter_single_seg_count	filemap.c	/^size_t iov_iter_single_seg_count(struct iov_iter *i)$/;"	f
+is_compat	exec.c	/^	bool is_compat;$/;"	m	struct:user_arg_ptr	file:
+is_cow_mapping	memory.c	/^static inline bool is_cow_mapping(vm_flags_t flags)$/;"	f	file:
+is_free_buddy_page	page_alloc.c	/^bool is_free_buddy_page(struct page *page)$/;"	f
+is_pageblock_removable_nolock	page_alloc.c	/^bool is_pageblock_removable_nolock(struct page *page)$/;"	f
+kernel_read	exec.c	/^EXPORT_SYMBOL(kernel_read);$/;"	v
+kernel_read	exec.c	/^int kernel_read(struct file *file, loff_t offset,$/;"	f
+kernel_thread	fork.c	/^pid_t kernel_thread(int (*fn)(void *), void *arg, unsigned long flags)$/;"	f
+list_to_page	readahead.c	37;"	d	file:
+local_memory_node	page_alloc.c	/^int local_memory_node(int node)$/;"	f
+lockdep_tasklist_lock_is_held	fork.c	/^EXPORT_SYMBOL_GPL(lockdep_tasklist_lock_is_held);$/;"	v
+lockdep_tasklist_lock_is_held	fork.c	/^int lockdep_tasklist_lock_is_held(void)$/;"	f
+lowmem_reserve_ratio_sysctl_handler	page_alloc.c	/^int lowmem_reserve_ratio_sysctl_handler(ctl_table *table, int write,$/;"	f
+make_alloc_exact	page_alloc.c	/^static void *make_alloc_exact(unsigned long addr, unsigned order, size_t size)$/;"	f	file:
+make_pages_present	memory.c	/^int make_pages_present(unsigned long addr, unsigned long end)$/;"	f
+mark_free_pages	page_alloc.c	/^void mark_free_pages(struct zone *zone)$/;"	f
+max_mapnr	memory.c	/^EXPORT_SYMBOL(max_mapnr);$/;"	v
+max_mapnr	memory.c	/^unsigned long max_mapnr;$/;"	v
+max_sane_readahead	readahead.c	/^unsigned long max_sane_readahead(unsigned long nr)$/;"	f
+max_threads	fork.c	/^int max_threads;		\/* tunable limit on nr_threads *\/$/;"	v
+mem_map	memory.c	/^EXPORT_SYMBOL(mem_map);$/;"	v
+mem_map	memory.c	/^struct page *mem_map;$/;"	v	typeref:struct:page
+memmap_init	page_alloc.c	3936;"	d	file:
+memmap_init_zone	page_alloc.c	/^void __meminit memmap_init_zone(unsigned long size, int nid, unsigned long zone,$/;"	f
+might_fault	memory.c	/^EXPORT_SYMBOL(might_fault);$/;"	v
+might_fault	memory.c	/^void might_fault(void)$/;"	f
+min_free_kbytes	page_alloc.c	/^int min_free_kbytes = 1024;$/;"	v
+min_order	page_alloc.c	/^	u32 min_order;$/;"	m	struct:__anon2	file:
+mm_access	fork.c	/^struct mm_struct *mm_access(struct task_struct *task, unsigned int mode)$/;"	f
+mm_alloc	fork.c	/^struct mm_struct *mm_alloc(void)$/;"	f
+mm_alloc_pgd	fork.c	/^static inline int mm_alloc_pgd(struct mm_struct *mm)$/;"	f	file:
+mm_alloc_pgd	fork.c	506;"	d	file:
+mm_cachep	fork.c	/^static struct kmem_cache *mm_cachep;$/;"	v	typeref:struct:kmem_cache	file:
+mm_free_pgd	fork.c	/^static inline void mm_free_pgd(struct mm_struct *mm)$/;"	f	file:
+mm_free_pgd	fork.c	507;"	d	file:
+mm_init	fork.c	/^static struct mm_struct *mm_init(struct mm_struct *mm, struct task_struct *p)$/;"	f	file:
+mm_init_aio	fork.c	/^static void mm_init_aio(struct mm_struct *mm)$/;"	f	file:
+mm_init_owner	fork.c	/^void mm_init_owner(struct mm_struct *mm, struct task_struct *p)$/;"	f
+mm_release	fork.c	/^void mm_release(struct task_struct *tsk, struct mm_struct *mm)$/;"	f
+mmput	fork.c	/^EXPORT_SYMBOL_GPL(mmput);$/;"	v
+mmput	fork.c	/^void mmput(struct mm_struct *mm)$/;"	f
+module_init	page_alloc.c	/^module_init(init_per_zone_wmark_min)$/;"	f
+movable_zone	page_alloc.c	/^EXPORT_SYMBOL(movable_zone);$/;"	v
+movable_zone	page_alloc.c	/^int movable_zone;$/;"	v
+move_freepages	page_alloc.c	/^int move_freepages(struct zone *zone,$/;"	f
+move_freepages_block	page_alloc.c	/^int move_freepages_block(struct zone *zone, struct page *page,$/;"	f
+mpage_add_bh_to_extent	inode.c	/^static void mpage_add_bh_to_extent(struct mpage_da_data *mpd,$/;"	f	file:
+mpage_da_map_and_submit	inode.c	/^static void mpage_da_map_and_submit(struct mpage_da_data *mpd)$/;"	f	file:
+mpage_da_submit_io	inode.c	/^static int mpage_da_submit_io(struct mpage_da_data *mpd,$/;"	f	file:
+my_printk	allocator_bk.c	/^static void my_printk(char *string) {$/;"	f	file:
+native	exec.c	/^		const char __user *const __user *native;$/;"	m	union:user_arg_ptr::__anon1	file:
+noalloc_get_block_write	inode.c	/^static int noalloc_get_block_write(struct inode *inode, sector_t iblock,$/;"	f	file:
+node_load	page_alloc.c	/^static int node_load[MAX_NUMNODES];$/;"	v	file:
+node_map_pfn_alignment	page_alloc.c	/^unsigned long __init node_map_pfn_alignment(void)$/;"	f
+node_order	page_alloc.c	/^static int node_order[MAX_NUMNODES];$/;"	v	file:
+node_states	page_alloc.c	/^EXPORT_SYMBOL(node_states);$/;"	v
+nr_all_pages	page_alloc.c	/^static unsigned long __meminitdata nr_all_pages;$/;"	v	file:
+nr_free_buffer_pages	page_alloc.c	/^EXPORT_SYMBOL_GPL(nr_free_buffer_pages);$/;"	v
+nr_free_buffer_pages	page_alloc.c	/^unsigned int nr_free_buffer_pages(void)$/;"	f
+nr_free_pagecache_pages	page_alloc.c	/^unsigned int nr_free_pagecache_pages(void)$/;"	f
+nr_free_zone_pages	page_alloc.c	/^static unsigned int nr_free_zone_pages(int offset)$/;"	f	file:
+nr_kernel_pages	page_alloc.c	/^static unsigned long __meminitdata nr_kernel_pages;$/;"	v	file:
+nr_node_ids	page_alloc.c	/^EXPORT_SYMBOL(nr_node_ids);$/;"	v
+nr_online_nodes	page_alloc.c	/^EXPORT_SYMBOL(nr_online_nodes);$/;"	v
+nr_processes	fork.c	/^int nr_processes(void)$/;"	f
+nr_threads	fork.c	/^int nr_threads;			\/* The idle threads do not count.. *\/$/;"	v
+num_physpages	memory.c	/^EXPORT_SYMBOL(num_physpages);$/;"	v
+num_physpages	memory.c	/^unsigned long num_physpages;$/;"	v
+numa_migrate_prep	memory.c	/^int numa_migrate_prep(struct page *page, struct vm_area_struct *vma,$/;"	f
+numa_node	page_alloc.c	/^EXPORT_PER_CPU_SYMBOL(numa_node);$/;"	v
+numa_zonelist_order	page_alloc.c	/^char numa_zonelist_order[16] = "default";$/;"	v
+numa_zonelist_order_handler	page_alloc.c	/^int numa_zonelist_order_handler(ctl_table *table, int write,$/;"	f
+ondemand_readahead	readahead.c	/^ondemand_readahead(struct address_space *mapping,$/;"	f	file:
+open_exec	exec.c	/^EXPORT_SYMBOL(open_exec);$/;"	v
+open_exec	exec.c	/^struct file *open_exec(const char *name)$/;"	f
+page_alloc_cpu_notify	page_alloc.c	/^static int page_alloc_cpu_notify(struct notifier_block *self,$/;"	f	file:
+page_alloc_init	page_alloc.c	/^void __init page_alloc_init(void)$/;"	f
+page_buf	allocator_bk.c	/^static NODE page_buf;$/;"	v	file:
+page_cache_async_readahead	readahead.c	/^EXPORT_SYMBOL_GPL(page_cache_async_readahead);$/;"	v
+page_cache_async_readahead	readahead.c	/^page_cache_async_readahead(struct address_space *mapping,$/;"	f
+page_cache_read	filemap.c	/^static int page_cache_read(struct file *file, pgoff_t offset)$/;"	f	file:
+page_cache_read	filemap.c	/^static int page_cache_read(struct file *file, pgoff_t offset, int color_on)$/;"	f	file:
+page_cache_sync_readahead	readahead.c	/^EXPORT_SYMBOL_GPL(page_cache_sync_readahead);$/;"	v
+page_cache_sync_readahead	readahead.c	/^void page_cache_sync_readahead(struct address_space *mapping,$/;"	f
+page_is_buddy	page_alloc.c	/^static inline int page_is_buddy(struct page *page, struct page *buddy,$/;"	f	file:
+page_is_consistent	page_alloc.c	/^static int page_is_consistent(struct zone *zone, struct page *page)$/;"	f	file:
+page_outside_zone_boundaries	page_alloc.c	/^static int page_outside_zone_boundaries(struct zone *zone, struct page *page)$/;"	f	file:
+page_waitqueue	filemap.c	/^static wait_queue_head_t *page_waitqueue(struct page *page)$/;"	f	file:
+pageblock_is_reserved	page_alloc.c	/^static int pageblock_is_reserved(unsigned long start_pfn, unsigned long end_pfn)$/;"	f	file:
+pagecache_write_begin	filemap.c	/^EXPORT_SYMBOL(pagecache_write_begin);$/;"	v
+pagecache_write_begin	filemap.c	/^int pagecache_write_begin(struct file *file, struct address_space *mapping,$/;"	f
+pagecache_write_end	filemap.c	/^EXPORT_SYMBOL(pagecache_write_end);$/;"	v
+pagecache_write_end	filemap.c	/^int pagecache_write_end(struct file *file, struct address_space *mapping,$/;"	f
+pageflag_names	page_alloc.c	/^static const struct trace_print_flags pageflag_names[] = {$/;"	v	typeref:struct:trace_print_flags	file:
+percpu_pagelist_fraction	page_alloc.c	/^int percpu_pagelist_fraction;$/;"	v
+percpu_pagelist_fraction_sysctl_handler	page_alloc.c	/^int percpu_pagelist_fraction_sysctl_handler(ctl_table *table, int write,$/;"	f
+pfn_max_align_down	page_alloc.c	/^static unsigned long pfn_max_align_down(unsigned long pfn)$/;"	f	file:
+pfn_max_align_up	page_alloc.c	/^static unsigned long pfn_max_align_up(unsigned long pfn)$/;"	f	file:
+pfn_to_bitidx	page_alloc.c	/^static inline int pfn_to_bitidx(struct zone *zone, unsigned long pfn)$/;"	f	file:
+pgd_clear_bad	memory.c	/^void pgd_clear_bad(pgd_t *pgd)$/;"	f
+pm_restore_gfp_mask	page_alloc.c	/^void pm_restore_gfp_mask(void)$/;"	f
+pm_restrict_gfp_mask	page_alloc.c	/^void pm_restrict_gfp_mask(void)$/;"	f
+pm_suspended_storage	page_alloc.c	/^bool pm_suspended_storage(void)$/;"	f
+pmd_clear_bad	memory.c	/^void pmd_clear_bad(pmd_t *pmd)$/;"	f
+posix_cpu_timers_init	fork.c	/^static void posix_cpu_timers_init(struct task_struct *tsk)$/;"	f	file:
+posix_cpu_timers_init_group	fork.c	/^static void posix_cpu_timers_init_group(struct signal_struct *sig)$/;"	f	file:
+prep_compound_page	page_alloc.c	/^void prep_compound_page(struct page *page, unsigned long order)$/;"	f
+prep_new_page	page_alloc.c	/^static int prep_new_page(struct page *page, int order, gfp_t gfp_flags)$/;"	f	file:
+prep_zero_page	page_alloc.c	/^static inline void prep_zero_page(struct page *page, int order, gfp_t gfp_flags)$/;"	f	file:
+prepare_binprm	exec.c	/^EXPORT_SYMBOL(prepare_binprm);$/;"	v
+prepare_binprm	exec.c	/^int prepare_binprm(struct linux_binprm *bprm)$/;"	f
+prepare_bprm_creds	exec.c	/^int prepare_bprm_creds(struct linux_binprm *bprm)$/;"	f
+print_bad_pte	memory.c	/^static void print_bad_pte(struct vm_area_struct *vma, unsigned long addr,$/;"	f	file:
+print_vma_addr	memory.c	/^void print_vma_addr(char *prefix, unsigned long ip)$/;"	f
+printable	exec.c	1439;"	d	file:
+proc_caches_init	fork.c	/^void __init proc_caches_init(void)$/;"	f
+proc_entry	allocator_bk.c	/^static struct proc_dir_entry *proc_entry;$/;"	v	typeref:struct:proc_dir_entry	file:
+proc_operations	allocator_bk.c	/^static struct file_operations proc_operations;$/;"	v	typeref:struct:file_operations	file:
+pte_unmap_same	memory.c	/^static inline int pte_unmap_same(struct mm_struct *mm, pmd_t *pmd,$/;"	f	file:
+ptr	exec.c	/^	} ptr;$/;"	m	struct:user_arg_ptr	typeref:union:user_arg_ptr::__anon1	file:
+pud_clear_bad	memory.c	/^void pud_clear_bad(pud_t *pud)$/;"	f
+put_arg_page	exec.c	/^static void put_arg_page(struct page *page)$/;"	f	file:
+put_binfmt	exec.c	/^static inline void put_binfmt(struct linux_binfmt * fmt)$/;"	f	file:
+put_signal_struct	fork.c	/^static inline void put_signal_struct(struct signal_struct *sig)$/;"	f	file:
+ra_submit	readahead.c	/^unsigned long ra_submit(struct file_ra_state *ra,$/;"	f
+read_cache_page	filemap.c	/^EXPORT_SYMBOL(read_cache_page);$/;"	v
+read_cache_page	filemap.c	/^struct page *read_cache_page(struct address_space *mapping,$/;"	f
+read_cache_page_async	filemap.c	/^EXPORT_SYMBOL(read_cache_page_async);$/;"	v
+read_cache_page_async	filemap.c	/^struct page *read_cache_page_async(struct address_space *mapping,$/;"	f
+read_cache_page_gfp	filemap.c	/^EXPORT_SYMBOL(read_cache_page_gfp);$/;"	v
+read_cache_page_gfp	filemap.c	/^struct page *read_cache_page_gfp(struct address_space *mapping,$/;"	f
+read_cache_pages	readahead.c	/^EXPORT_SYMBOL(read_cache_pages);$/;"	v
+read_cache_pages	readahead.c	/^int read_cache_pages(struct address_space *mapping, struct list_head *pages,$/;"	f
+read_cache_pages_invalidate_page	readahead.c	/^static void read_cache_pages_invalidate_page(struct address_space *mapping,$/;"	f	file:
+read_cache_pages_invalidate_pages	readahead.c	/^static void read_cache_pages_invalidate_pages(struct address_space *mapping,$/;"	f	file:
+read_pages	readahead.c	/^static int read_pages(struct address_space *mapping, struct file *filp,$/;"	f	file:
+readahead	readahead.c	/^SYSCALL_DEFINE(readahead)(int fd, loff_t offset, size_t count)$/;"	f
+remap_pfn_range	memory.c	/^EXPORT_SYMBOL(remap_pfn_range);$/;"	v
+remap_pfn_range	memory.c	/^int remap_pfn_range(struct vm_area_struct *vma, unsigned long addr,$/;"	f
+remap_pmd_range	memory.c	/^static inline int remap_pmd_range(struct mm_struct *mm, pud_t *pud,$/;"	f	file:
+remap_pte_range	memory.c	/^static int remap_pte_range(struct mm_struct *mm, pmd_t *pmd,$/;"	f	file:
+remap_pud_range	memory.c	/^static inline int remap_pud_range(struct mm_struct *mm, pgd_t *pgd,$/;"	f	file:
+remove_arg_zero	exec.c	/^EXPORT_SYMBOL(remove_arg_zero);$/;"	v
+remove_arg_zero	exec.c	/^int remove_arg_zero(struct linux_binprm *bprm)$/;"	f
+replace_page_cache_page	filemap.c	/^EXPORT_SYMBOL_GPL(replace_page_cache_page);$/;"	v
+replace_page_cache_page	filemap.c	/^int replace_page_cache_page(struct page *old, struct page *new, gfp_t gfp_mask)$/;"	f
+required_kernelcore	page_alloc.c	/^static unsigned long __initdata required_kernelcore;$/;"	v	file:
+required_movablecore	page_alloc.c	/^static unsigned long __initdata required_movablecore;$/;"	v	file:
+rmqueue_bulk	page_alloc.c	/^static int rmqueue_bulk(struct zone *zone, unsigned int order,$/;"	f	file:
+rmv_page_order	page_alloc.c	/^static inline void rmv_page_order(struct page *page)$/;"	f	file:
+rt_mutex_init_task	fork.c	/^static void rt_mutex_init_task(struct task_struct *p)$/;"	f	file:
+saved_gfp_mask	page_alloc.c	/^static gfp_t saved_gfp_mask;$/;"	v	file:
+search_binary_handler	exec.c	/^EXPORT_SYMBOL(search_binary_handler);$/;"	v
+search_binary_handler	exec.c	/^int search_binary_handler(struct linux_binprm *bprm)$/;"	f
+set_binfmt	exec.c	/^EXPORT_SYMBOL(set_binfmt);$/;"	v
+set_binfmt	exec.c	/^void set_binfmt(struct linux_binfmt *new)$/;"	f
+set_dma_reserve	page_alloc.c	/^void __init set_dma_reserve(unsigned long new_dma_reserve)$/;"	f
+set_dumpable	exec.c	/^void set_dumpable(struct mm_struct *mm, int value)$/;"	f
+set_hashdist	page_alloc.c	/^static int __init set_hashdist(char *str)$/;"	f	file:
+set_mm_exe_file	fork.c	/^void set_mm_exe_file(struct mm_struct *mm, struct file *new_exe_file)$/;"	f
+set_page_guard_flag	page_alloc.c	/^static inline void set_page_guard_flag(struct page *page) { }$/;"	f	file:
+set_page_guard_flag	page_alloc.c	/^static inline void set_page_guard_flag(struct page *page)$/;"	f	file:
+set_page_order	page_alloc.c	/^static inline void set_page_order(struct page *page, int order)$/;"	f	file:
+set_pageblock_flags_group	page_alloc.c	/^void set_pageblock_flags_group(struct page *page, unsigned long flags,$/;"	f
+set_pageblock_migratetype	page_alloc.c	/^void set_pageblock_migratetype(struct page *page, int migratetype)$/;"	f
+set_pageblock_order	page_alloc.c	/^void __init set_pageblock_order(void)$/;"	f
+set_task_comm	exec.c	/^void set_task_comm(struct task_struct *tsk, char *buf)$/;"	f
+set_zonelist_order	page_alloc.c	/^static void set_zonelist_order(void)$/;"	f	file:
+setup_arg_pages	exec.c	/^EXPORT_SYMBOL(setup_arg_pages);$/;"	v
+setup_arg_pages	exec.c	/^int setup_arg_pages(struct linux_binprm *bprm,$/;"	f
+setup_fail_page_alloc	page_alloc.c	/^static int __init setup_fail_page_alloc(char *str)$/;"	f	file:
+setup_new_exec	exec.c	/^EXPORT_SYMBOL(setup_new_exec);$/;"	v
+setup_new_exec	exec.c	/^void setup_new_exec(struct linux_binprm * bprm)$/;"	f
+setup_nr_node_ids	page_alloc.c	/^static inline void setup_nr_node_ids(void)$/;"	f	file:
+setup_nr_node_ids	page_alloc.c	/^static void __init setup_nr_node_ids(void)$/;"	f	file:
+setup_numa_zonelist_order	page_alloc.c	/^static __init int setup_numa_zonelist_order(char *s)$/;"	f	file:
+setup_pagelist_highmark	page_alloc.c	/^static void setup_pagelist_highmark(struct per_cpu_pageset *p,$/;"	f	file:
+setup_pageset	page_alloc.c	/^static void setup_pageset(struct per_cpu_pageset *p, unsigned long batch)$/;"	f	file:
+setup_per_cpu_pageset	page_alloc.c	/^void __init setup_per_cpu_pageset(void)$/;"	f
+setup_per_zone_inactive_ratio	page_alloc.c	/^static void __meminit setup_per_zone_inactive_ratio(void)$/;"	f	file:
+setup_per_zone_lowmem_reserve	page_alloc.c	/^static void setup_per_zone_lowmem_reserve(void)$/;"	f	file:
+setup_per_zone_wmarks	page_alloc.c	/^void setup_per_zone_wmarks(void)$/;"	f
+setup_usemap	page_alloc.c	/^static inline void setup_usemap(struct pglist_data *pgdat, struct zone *zone,$/;"	f	file:
+setup_usemap	page_alloc.c	/^static void __init setup_usemap(struct pglist_data *pgdat,$/;"	f	file:
+setup_zone_migrate_reserve	page_alloc.c	/^static void setup_zone_migrate_reserve(struct zone *zone)$/;"	f	file:
+setup_zone_pageset	page_alloc.c	/^static void __meminit setup_zone_pageset(struct zone *zone)$/;"	f	file:
+shift_arg_pages	exec.c	/^static int shift_arg_pages(struct vm_area_struct *vma, unsigned long shift)$/;"	f	file:
+should_alloc_retry	page_alloc.c	/^should_alloc_retry(gfp_t gfp_mask, unsigned int order,$/;"	f	file:
+should_fail_alloc_page	page_alloc.c	/^static bool should_fail_alloc_page(gfp_t gfp_mask, unsigned int order)$/;"	f	file:
+should_fail_alloc_page	page_alloc.c	/^static inline bool should_fail_alloc_page(gfp_t gfp_mask, unsigned int order)$/;"	f	file:
+should_suppress_show_mem	page_alloc.c	/^static inline bool should_suppress_show_mem(void)$/;"	f	file:
+show_free_areas	page_alloc.c	/^void show_free_areas(unsigned int filter)$/;"	f
+show_migration_types	page_alloc.c	/^static void show_migration_types(unsigned char type)$/;"	f	file:
+show_node	page_alloc.c	/^static inline void show_node(struct zone *zone)$/;"	f	file:
+shrink_readahead_size_eio	filemap.c	/^static void shrink_readahead_size_eio(struct file *filp,$/;"	f	file:
+si_meminfo	page_alloc.c	/^EXPORT_SYMBOL(si_meminfo);$/;"	v
+si_meminfo	page_alloc.c	/^void si_meminfo(struct sysinfo *val)$/;"	f
+si_meminfo_node	page_alloc.c	/^void si_meminfo_node(struct sysinfo *val, int nid)$/;"	f
+sighand_cachep	fork.c	/^struct kmem_cache *sighand_cachep;$/;"	v	typeref:struct:kmem_cache
+sighand_ctor	fork.c	/^static void sighand_ctor(void *data)$/;"	f	file:
+signal_cachep	fork.c	/^static struct kmem_cache *signal_cachep;$/;"	v	typeref:struct:kmem_cache	file:
+skip_free_areas_node	page_alloc.c	/^bool skip_free_areas_node(unsigned int flags, int nid)$/;"	f
+sleep_on_page	filemap.c	/^static int sleep_on_page(void *word)$/;"	f	file:
+sleep_on_page_killable	filemap.c	/^static int sleep_on_page_killable(void *word)$/;"	f	file:
+sparse_memory_present_with_active_regions	page_alloc.c	/^void __init sparse_memory_present_with_active_regions(int nid)$/;"	f
+split_free_page	page_alloc.c	/^int split_free_page(struct page *page)$/;"	f
+split_page	page_alloc.c	/^void split_page(struct page *page, unsigned int order)$/;"	f
+stack_guard_page	memory.c	/^static inline int stack_guard_page(struct vm_area_struct *vma, unsigned long addr)$/;"	f	file:
+suid_dumpable	exec.c	/^int suid_dumpable = 0;$/;"	v
+sync_mm_rss	memory.c	/^void sync_mm_rss(struct mm_struct *mm)$/;"	f
+sysctl_lowmem_reserve_ratio	page_alloc.c	/^int sysctl_lowmem_reserve_ratio[MAX_NR_ZONES-1] = {$/;"	v
+sysctl_min_slab_ratio_sysctl_handler	page_alloc.c	/^int sysctl_min_slab_ratio_sysctl_handler(ctl_table *table, int write,$/;"	f
+sysctl_min_unmapped_ratio_sysctl_handler	page_alloc.c	/^int sysctl_min_unmapped_ratio_sysctl_handler(ctl_table *table, int write,$/;"	f
+task_struct_cachep	fork.c	/^static struct kmem_cache *task_struct_cachep;$/;"	v	typeref:struct:kmem_cache	file:
+tasklist_lock	fork.c	/^EXPORT_SYMBOL(tasklist_lock);$/;"	v
+thread_info_cache	fork.c	/^static struct kmem_cache *thread_info_cache;$/;"	v	typeref:struct:kmem_cache	file:
+thread_info_cache_init	fork.c	/^void thread_info_cache_init(void)$/;"	f
+tlb_finish_mmu	memory.c	/^void tlb_finish_mmu(struct mmu_gather *tlb, unsigned long start, unsigned long end)$/;"	f
+tlb_flush_mmu	memory.c	/^void tlb_flush_mmu(struct mmu_gather *tlb)$/;"	f
+tlb_gather_mmu	memory.c	/^void tlb_gather_mmu(struct mmu_gather *tlb, struct mm_struct *mm, bool fullmm)$/;"	f
+tlb_next_batch	memory.c	/^static int tlb_next_batch(struct mmu_gather *tlb)$/;"	f	file:
+tlb_remove_table	memory.c	/^void tlb_remove_table(struct mmu_gather *tlb, void *table)$/;"	f
+tlb_remove_table_one	memory.c	/^static void tlb_remove_table_one(void *table)$/;"	f	file:
+tlb_remove_table_rcu	memory.c	/^static void tlb_remove_table_rcu(struct rcu_head *head)$/;"	f	file:
+tlb_remove_table_smp_sync	memory.c	/^static void tlb_remove_table_smp_sync(void *arg)$/;"	f	file:
+tlb_table_flush	memory.c	/^void tlb_table_flush(struct mmu_gather *tlb)$/;"	f
+total_forks	fork.c	/^unsigned long total_forks;	\/* Handle normal Linux uptimes. *\/$/;"	v
+totalram_pages	page_alloc.c	/^EXPORT_SYMBOL(totalram_pages);$/;"	v
+try_context_readahead	readahead.c	/^static int try_context_readahead(struct address_space *mapping,$/;"	f	file:
+try_to_release_page	filemap.c	/^EXPORT_SYMBOL(try_to_release_page);$/;"	v
+try_to_release_page	filemap.c	/^int try_to_release_page(struct page *page, gfp_t gfp_mask)$/;"	f
+unlock_page	filemap.c	/^EXPORT_SYMBOL(unlock_page);$/;"	v
+unlock_page	filemap.c	/^void unlock_page(struct page *page)$/;"	f
+unmap_mapping_range	memory.c	/^EXPORT_SYMBOL(unmap_mapping_range);$/;"	v
+unmap_mapping_range	memory.c	/^void unmap_mapping_range(struct address_space *mapping,$/;"	f
+unmap_mapping_range_list	memory.c	/^static inline void unmap_mapping_range_list(struct list_head *head,$/;"	f	file:
+unmap_mapping_range_tree	memory.c	/^static inline void unmap_mapping_range_tree(struct rb_root *root,$/;"	f	file:
+unmap_mapping_range_vma	memory.c	/^static void unmap_mapping_range_vma(struct vm_area_struct *vma,$/;"	f	file:
+unmap_page_range	memory.c	/^static void unmap_page_range(struct mmu_gather *tlb,$/;"	f	file:
+unmap_single_vma	memory.c	/^static void unmap_single_vma(struct mmu_gather *tlb,$/;"	f	file:
+unmap_vmas	memory.c	/^void unmap_vmas(struct mmu_gather *tlb,$/;"	f
+unregister_binfmt	exec.c	/^EXPORT_SYMBOL(unregister_binfmt);$/;"	v
+unregister_binfmt	exec.c	/^void unregister_binfmt(struct linux_binfmt * fmt)$/;"	f
+unshare_fd	fork.c	/^static int unshare_fd(unsigned long unshare_flags, struct files_struct **new_fdp)$/;"	f	file:
+unshare_files	fork.c	/^int unshare_files(struct files_struct **displaced)$/;"	f
+unshare_fs	fork.c	/^static int unshare_fs(unsigned long unshare_flags, struct fs_struct **new_fsp)$/;"	f	file:
+usemap_size	page_alloc.c	/^static unsigned long __init usemap_size(unsigned long zone_start_pfn, unsigned long zonesize)$/;"	f	file:
+user_arg_ptr	exec.c	/^struct user_arg_ptr {$/;"	s	file:
+user_zonelist_order	page_alloc.c	/^static int user_zonelist_order = ZONELIST_ORDER_DEFAULT;$/;"	v	file:
+valid_arg_len	exec.c	/^static bool valid_arg_len(struct linux_binprm *bprm, long len)$/;"	f	file:
+vm_area_cachep	fork.c	/^struct kmem_cache *vm_area_cachep;$/;"	v	typeref:struct:kmem_cache
+vm_insert_mixed	memory.c	/^EXPORT_SYMBOL(vm_insert_mixed);$/;"	v
+vm_insert_mixed	memory.c	/^int vm_insert_mixed(struct vm_area_struct *vma, unsigned long addr,$/;"	f
+vm_insert_page	memory.c	/^EXPORT_SYMBOL(vm_insert_page);$/;"	v
+vm_insert_page	memory.c	/^int vm_insert_page(struct vm_area_struct *vma, unsigned long addr,$/;"	f
+vm_insert_pfn	memory.c	/^EXPORT_SYMBOL(vm_insert_pfn);$/;"	v
+vm_insert_pfn	memory.c	/^int vm_insert_pfn(struct vm_area_struct *vma, unsigned long addr,$/;"	f
+vm_normal_page	memory.c	/^struct page *vm_normal_page(struct vm_area_struct *vma, unsigned long addr,$/;"	f
+wait_for_vfork_done	fork.c	/^static int wait_for_vfork_done(struct task_struct *child,$/;"	f	file:
+wait_on_page_bit	filemap.c	/^EXPORT_SYMBOL(wait_on_page_bit);$/;"	v
+wait_on_page_bit	filemap.c	/^void wait_on_page_bit(struct page *page, int bit_nr)$/;"	f
+wait_on_page_bit_killable	filemap.c	/^int wait_on_page_bit_killable(struct page *page, int bit_nr)$/;"	f
+wait_on_page_read	filemap.c	/^static struct page *wait_on_page_read(struct page *page)$/;"	f	file:
+wait_table_bits	page_alloc.c	/^static inline unsigned long wait_table_bits(unsigned long size)$/;"	f	file:
+wait_table_hash_nr_entries	page_alloc.c	/^static inline unsigned long wait_table_hash_nr_entries(unsigned long pages)$/;"	f	file:
+wake_all_kswapd	page_alloc.c	/^void wake_all_kswapd(unsigned int order, struct zonelist *zonelist,$/;"	f	file:
+wake_up_page	filemap.c	/^static inline void wake_up_page(struct page *page, int bit)$/;"	f	file:
+warn_alloc_failed	page_alloc.c	/^void warn_alloc_failed(gfp_t gfp_mask, int order, const char *fmt, ...)$/;"	f
+would_dump	exec.c	/^EXPORT_SYMBOL(would_dump);$/;"	v
+would_dump	exec.c	/^void would_dump(struct linux_binprm *bprm, struct file *file)$/;"	f
+write_cache_pages_da	inode.c	/^static int write_cache_pages_da(handle_t *handle,$/;"	f	file:
+write_end_fn	inode.c	/^static int write_end_fn(handle_t *handle, struct buffer_head *bh)$/;"	f	file:
+zap_page_range	memory.c	/^void zap_page_range(struct vm_area_struct *vma, unsigned long start,$/;"	f
+zap_page_range_single	memory.c	/^static void zap_page_range_single(struct vm_area_struct *vma, unsigned long address,$/;"	f	file:
+zap_pmd_range	memory.c	/^static inline unsigned long zap_pmd_range(struct mmu_gather *tlb,$/;"	f	file:
+zap_pte_range	memory.c	/^static unsigned long zap_pte_range(struct mmu_gather *tlb,$/;"	f	file:
+zap_pud_range	memory.c	/^static inline unsigned long zap_pud_range(struct mmu_gather *tlb,$/;"	f	file:
+zap_vma_ptes	memory.c	/^EXPORT_SYMBOL_GPL(zap_vma_ptes);$/;"	v
+zap_vma_ptes	memory.c	/^int zap_vma_ptes(struct vm_area_struct *vma, unsigned long address,$/;"	f
+zlc_clear_zones_full	page_alloc.c	/^static void zlc_clear_zones_full(struct zonelist *zonelist)$/;"	f	file:
+zlc_mark_zone_full	page_alloc.c	/^static void zlc_mark_zone_full(struct zonelist *zonelist, struct zoneref *z)$/;"	f	file:
+zlc_setup	page_alloc.c	/^static nodemask_t *zlc_setup(struct zonelist *zonelist, int alloc_flags)$/;"	f	file:
+zlc_zone_worth_trying	page_alloc.c	/^static int zlc_zone_worth_trying(struct zonelist *zonelist, struct zoneref *z,$/;"	f	file:
+zone_absent_pages_in_node	page_alloc.c	/^static inline unsigned long __meminit zone_absent_pages_in_node(int nid,$/;"	f	file:
+zone_absent_pages_in_node	page_alloc.c	/^static unsigned long __meminit zone_absent_pages_in_node(int nid,$/;"	f	file:
+zone_allows_reclaim	page_alloc.c	/^static bool zone_allows_reclaim(struct zone *local_zone, struct zone *zone)$/;"	f	file:
+zone_batchsize	page_alloc.c	/^static int __meminit zone_batchsize(struct zone *zone)$/;"	f	file:
+zone_init_free_lists	page_alloc.c	/^static void __meminit zone_init_free_lists(struct zone *zone)$/;"	f	file:
+zone_movable_pfn	page_alloc.c	/^static unsigned long __meminitdata zone_movable_pfn[MAX_NUMNODES];$/;"	v	file:
+zone_names	page_alloc.c	/^static char * const zone_names[MAX_NR_ZONES] = {$/;"	v	file:
+zone_pcp_init	page_alloc.c	/^static __meminit void zone_pcp_init(struct zone *zone)$/;"	f	file:
+zone_pcp_reset	page_alloc.c	/^void zone_pcp_reset(struct zone *zone)$/;"	f
+zone_pcp_update	page_alloc.c	/^void __meminit zone_pcp_update(struct zone *zone)$/;"	f
+zone_spanned_pages_in_node	page_alloc.c	/^static inline unsigned long __meminit zone_spanned_pages_in_node(int nid,$/;"	f	file:
+zone_spanned_pages_in_node	page_alloc.c	/^static unsigned long __meminit zone_spanned_pages_in_node(int nid,$/;"	f	file:
+zone_wait_table_init	page_alloc.c	/^int zone_wait_table_init(struct zone *zone, unsigned long zone_size_pages)$/;"	f	file:
+zone_watermark_ok	page_alloc.c	/^bool zone_watermark_ok(struct zone *z, int order, unsigned long mark,$/;"	f
+zone_watermark_ok_safe	page_alloc.c	/^bool zone_watermark_ok_safe(struct zone *z, int order, unsigned long mark,$/;"	f
+zonelist_order_name	page_alloc.c	/^static char zonelist_order_name[3][8] = {"Default", "Node", "Zone"};$/;"	v	file:
+zonelists_mutex	page_alloc.c	/^DEFINE_MUTEX(zonelists_mutex);$/;"	v
+zoneref_set_zone	page_alloc.c	/^static void zoneref_set_zone(struct zone *zone, struct zoneref *zoneref)$/;"	f	file:
