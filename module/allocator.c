@@ -61,6 +61,8 @@ struct _Node_Cache {
   spinlock_t lock;
 };
 
+/* -ZC- what is the relationship */
+/* between color_lists and node_cache */
 static struct _Node_Cache node_cache;
 
 static int pg_num;
@@ -99,6 +101,9 @@ static struct pureHack hackdata;
 
 
 /* *********Utilities********* */
+/* -ZC- Is this correct to use */
+/* the least significant 6 bits */
+/* as color flag ? */
 #define GET_COLOR(pfn) (pfn & 0x3F)
 
 
@@ -330,6 +335,12 @@ static int __init alloc_init(void) {
   template.lru.prev = t_pg->lru.prev;
 #endif
 
+  /* -ZC- what it does is keeping requesting
+   * pages from linux allocator and inserting
+   * into the color list a page belongs to.
+   * If the color list is full. It puts the page
+   * to page_buf to avoid from getting this page
+   * again */
   while(count != COLOR_NUM) {
     new_pg = alloc_page(__GFP_HIGHMEM | __GFP_MOVABLE | __GFP_ZERO);
 
